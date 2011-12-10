@@ -64,9 +64,7 @@ text-shadow:2px 2px #4a4b58;
 #main h1{
     font-size:90px;
     color:#1599c1;
-
-line-height:1px;
-text-align:center;
+    text-align:center;
 }
 #footer{
 height:130px;
