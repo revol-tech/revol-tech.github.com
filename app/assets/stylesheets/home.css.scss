@@ -5,54 +5,60 @@
 body{
   font-family: 'Droid Serif', serif !important;
 }
-
-h1.revol{
-  margin-bottom:5% !important;
+p.tagline{
+  font-family: 'Tangerine', serif;
+  font-size: 58px;
   text-shadow: 4px 4px 4px #aaa;
-  font-size:45px !important;
+  margin:-3% 27% !important;
+  color:#232323;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0px;
+    line-height: 1em;
+    margin-bottom: 20px;
 }
-figure.building{
-  float:left;
-}
-img.building{
- padding: 5px;
-	border: solid 1px #EFEFEF;
-	-moz-box-shadow: 5px 5px 0px #999;
-	-webkit-box-shadow: 5px 5px 0px #999;
-  box-shadow: 5px 5px 0px #999;
-
-
- -webkit-transform: rotate(-5deg) scale(1.1);
-   -moz-transform: rotate(-5deg);
-   -o-transform: rotate(-5deg) scale(1.1);
-   transform: rotate(-5deg);
-
-
-}
-
-a:hover img.building {
-
--webkit-transform: rotate(5deg) scale(1.1);
-   -moz-transform: rotate(5deg) scale(1.1);
-   -o-transform: rotate(5deg) scale(1.1);
-   transform: rotate(5deg) scale(1.1);
-}
-
-
-.hero-unit{
-overflow:hidden;
--moz-box-shadow: 15px 15px 0px #999;
-	-webkit-box-shadow: 15px 15px 0px #999;
-  box-shadow: 15px 15px 0px #999;
-  -moz-border-radius: 15px !important;
-  -webkit-border-radius: 15px !important;
-}
-
 div.banner_text{
-margin:1% 1% 2% 2%;
+
 }
-
+p.sub_tagline{
+font-size:24px;
+margin:5% 0% 0% 28%
+}
 img.logo{
-margin-top:-4%;
-
+    margin: 0% 0% 5% 40%;
+}
+div.nav{
+  float:none;
+  width:86%;
+  display:block !important;
+  margin: 1% 10%;
+  padding: 10px;
+  text-align: right;
+}
+div.nav ul li.date {
+    color: #999999;
+    float: left;
+    padding-top: 4px;
+}
+div.nav ul {
+    margin: 0;
+    padding: 0;
+}
+div.nav ul li {
+    display: inline !important;
+    font-family: 'Lucida Grande','Lucida Sans Unicode',Verdana,sans-serif;
+    font-size: 12px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0 10px;
+}
+div.nav ul li a {
+   display: inline !important;
+    text-decoration: none;
+}
+a {
+    color: #336699;
+}
+a:hover {
+    color: #6699cc !important;
 }
