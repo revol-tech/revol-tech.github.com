@@ -9,7 +9,7 @@ p.tagline{
   font-family: 'Tangerine', serif;
   font-size: 58px;
   text-shadow: 4px 4px 4px #aaa;
-  margin:-3% 27% !important;
+  margin:3% 19% !important;
   color:#232323;
     font-style: normal;
     font-weight: 500;
@@ -22,10 +22,10 @@ div.banner_text{
 }
 p.sub_tagline{
 font-size:24px;
-margin:5% 0% 0% 28%
+margin:0% 0% 0% 22%
 }
 img.logo{
-    margin: 0% 0% 5% 40%;
+    margin: 0% 0% 0% 40%;
 }
 div.nav{
   float:none;
@@ -61,4 +61,26 @@ a {
 }
 a:hover {
     color: #6699cc !important;
+}
+hr.stars{
+    background: url("stars.png") no-repeat scroll 50% 50% white;
+    border: 0 none;
+    clear: both;
+    color: transparent;
+    height: 12px;
+}
+
+div.quote h3{
+    color: #666666;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.3em;
+    text-align: left;
+
+//color: #888888;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 500;
+    margin: 35px 0 10px;
+
 }
