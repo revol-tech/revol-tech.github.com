@@ -12,7 +12,7 @@ role :db,  "revol-tech.com.np", :primary => true # This is where Rails migration
 #role :db,  "your slave db-server here"
 
 set :user, "deploy"
-set :scm_username, 'revol-tech'
+set :scm_username, 'xecutioner'
 
 # if you're still using the script/reaper helper you will need
 # these http://github.com/rails/irs_process_scripts
