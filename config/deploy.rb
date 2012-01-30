@@ -1,13 +1,18 @@
 set :application, "revol-tech"
-set :repository,  "set your repository location here"
+set :repository,  "git@github.com:revol-tech/revol-tech.github.com.git"
 
-set :scm, :subversion
+set :scm, :git
 # Or: `accurev`, `bzr`, `cvs`, `darcs`, `git`, `mercurial`, `perforce`, `subversion` or `none`
 
-role :web, "your web-server here"                          # Your HTTP server, Apache/etc
-role :app, "your app-server here"                          # This may be the same as your `Web` server
-role :db,  "your primary db-server here", :primary => true # This is where Rails migrations will run
-role :db,  "your slave db-server here"
+set :deploy_to, "/var/www"
+
+role :web, "revol-tech.com.np"                          # Your HTTP server, Apache/etc
+role :app, "revol-tech.com.np"                          # This may be the same as your `Web` server
+role :db,  "revol-tech.com.np", :primary => true # This is where Rails migrations will run
+#role :db,  "your slave db-server here"
+
+set :user, "deploy"
+set :scm_username, 'revol-tech'
 
 # if you're still using the script/reaper helper you will need
 # these http://github.com/rails/irs_process_scripts
