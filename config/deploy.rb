@@ -27,6 +27,8 @@ require "rvm/capistrano"
 
 set :rvm_ruby_string, '1.9.3'
 #set :rvm_type, :user  # Don't use system-wide RVM
+load 'deploy/assets'
+
 
 
 # if you're still using the script/reaper helper you will need
