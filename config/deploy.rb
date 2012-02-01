@@ -1,4 +1,3 @@
-require "bundler/capistrano"
 set :application, "revol-tech"
 set :repository,  "git@github.com:revol-tech/revol-tech.github.com.git"
 
@@ -14,6 +13,9 @@ role :db,  "revol-tech.com.np", :primary => true # This is where Rails migration
 
 set :user, "deploy"
 set :scm_username, 'xecutioner'
+set :bundle_gemfile,  "Gemfile"
+require "bundler/capistrano"
+
 
 # if you're still using the script/reaper helper you will need
 # these http://github.com/rails/irs_process_scripts
