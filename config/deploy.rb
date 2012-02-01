@@ -4,7 +4,7 @@ set :repository,  "git@github.com:revol-tech/revol-tech.github.com.git"
 set :scm, :git
 # Or: `accurev`, `bzr`, `cvs`, `darcs`, `git`, `mercurial`, `perforce`, `subversion` or `none`
 
-set :deploy_to, "/var/www"
+set :deploy_to, "/home/deploy/www/revol-tech.com.np"
 
 role :web, "revol-tech.com.np"                          # Your HTTP server, Apache/etc
 role :app, "revol-tech.com.np"                          # This may be the same as your `Web` server
