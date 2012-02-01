@@ -14,6 +14,9 @@ role :db,  "revol-tech.com.np", :primary => true # This is where Rails migration
 set :user, "deploy"
 set :scm_username, 'xecutioner'
 set :bundle_gemfile,  "Gemfile"
+  set :bundle_dir,""
+  set :bundle_flags,""
+  set :bundle_without,      [:development, :test]
 require "bundler/capistrano"
 
 
