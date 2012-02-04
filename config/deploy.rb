@@ -1,7 +1,7 @@
 default_run_options[:pty] = true
 set :application, "revol-tech"
 set :repository,  "git@github.com:revol-tech/revol-tech.github.com.git"
-
+set :use_sudo, false  #permission conflict resolve
 set :scm, :git
 # Or: `accurev`, `bzr`, `cvs`, `darcs`, `git`, `mercurial`, `perforce`, `subversion` or `none`
 
