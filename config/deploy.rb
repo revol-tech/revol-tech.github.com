@@ -1,3 +1,4 @@
+default_run_options[:pty] = true
 set :application, "revol-tech"
 set :repository,  "git@github.com:revol-tech/revol-tech.github.com.git"
 
