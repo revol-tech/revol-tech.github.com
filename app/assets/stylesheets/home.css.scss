@@ -55,8 +55,9 @@ div.nav ul li {
     font-size: 12px;
     list-style-type: none;
     margin: 0;
-    padding: 0 10px;
+    padding: 0 8px;
 }
+
 div.nav ul li a {
    display: inline !important;
     text-decoration: none;
@@ -76,9 +77,6 @@ hr.stars{
 }
 
 div.quote h3{
-    color: #666666;
-    font-size: 22px;
-    font-style: italic;
     font-weight: 400;
     line-height: 1.3em;
     margin: -6% 0 0 -1%;
@@ -191,4 +189,56 @@ a.more{
 a.more:hover{
     color:#fff;
     font-size:17px
+}
+
+// footer decorations
+footer{
+   margin-top: 19px;
+    padding-top: 19px;
+  background: none repeat scroll 0 0 #252525;
+    border-top: 0 none;
+}
+footer h4 {
+  margin: 0;
+  padding: 0;
+  color: #999999;
+  line-height: 24px;
+  font-size: 16px;
+  font-weight: bold;
+}
+footer a {
+    color: #FFFFFF;
+     font-weight: inherit;
+    line-height: inherit;
+    text-decoration: none;
+}
+footer p {
+ font-style: normal;
+    color: #999999;
+    font-family: "Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+#footer-floor {
+     color: #333333;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 20px;
+    color:white;
+    background: none repeat scroll 0 0 #1B1B1B;
+}
+#footer-floor h4,#footer-floor h3 {
+    color: #FFFFFF;
+}
+footer #footer-floor #elsewhere-icons a {
+    background: url("footer-icons-sprite.png") no-repeat scroll 0 0 transparent;
+    float: left;
+    height: 35px;
+    margin: 0 5px 0 0;
+    overflow: hidden;
+    text-indent: -900px;
+    width: 95px;
 }
