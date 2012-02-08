@@ -25,20 +25,25 @@ font-size:24px;
 margin:0% 0% 0% 22%
 }
 img.logo{
-    margin: 0% 0% 0% 79%;
+    margin: 6% 0 0 -12%;
    // -webkit-box-shadow: 0 14px 8px -1px black;
     //-moz-box-shadow: 0 14px 8px -1px black;
     //box-shadow:  0 14px 8px -1px black;
-
-
 }
 div.nav{
   float:none;
   width:86%;
   display:block !important;
-  margin: 1% 10%;
+  margin: 0% 10%;
   padding: 10px;
   text-align: right;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 10000;
+    background-color: #FFFFFF;
+    //border-bottom: 1px solid #E0E0E0;
+    padding: 9px 0 0;
 }
 div.nav ul li.date {
     color: #999999;
