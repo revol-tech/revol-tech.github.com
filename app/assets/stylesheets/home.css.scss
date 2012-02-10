@@ -9,7 +9,7 @@ p.tagline{
   font-family: 'Tangerine', serif;
   font-size: 58px;
   text-shadow: 4px 4px 4px #aaa;
-  margin:3% 19% !important;
+  margin:-2% 19% !important;
   color:#232323;
     font-style: normal;
     font-weight: 500;
@@ -37,7 +37,7 @@ div.nav{
   margin: 0% 10%;
   padding: 10px;
   text-align: right;
-    position: fixed;
+    //position: fixed;
     right: 0;
     top: 0;
     z-index: 10000;
