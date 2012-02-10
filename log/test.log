@@ -1,0 +1,97 @@
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-11 01:57:07 +0545
+  Processing by HomeController#index as HTML
+Rendered home/_top_links.html.erb (0.5ms)
+Rendered home/_logo.html.erb (0.6ms)
+Rendered home/_banner.html.erb (0.3ms)
+Rendered home/_slider.html.erb (0.3ms)
+Rendered home/_quote.html.erb (0.3ms)
+Rendered home/_footer.html.erb (0.3ms)
+Rendered home/index.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 46ms (Views: 45.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-11 01:58:12 +0545
+  Processing by HomeController#index as HTML
+Rendered home/_top_links.html.erb (0.5ms)
+Rendered home/_logo.html.erb (0.6ms)
+Rendered home/_banner.html.erb (0.3ms)
+Rendered home/_slider.html.erb (0.4ms)
+Rendered home/_quote.html.erb (0.3ms)
+Rendered home/_footer.html.erb (0.3ms)
+Rendered home/index.html.erb within layouts/application (33.4ms)
+Completed 200 OK in 69ms (Views: 68.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-11 02:00:10 +0545
+  Processing by HomeController#index as HTML
+Rendered home/_top_links.html.erb (0.6ms)
+Rendered home/_logo.html.erb (0.7ms)
+Rendered home/_banner.html.erb (0.3ms)
+Rendered home/_slider.html.erb (0.4ms)
+Rendered home/_quote.html.erb (0.3ms)
+Rendered home/_footer.html.erb (0.3ms)
+Rendered home/index.html.erb within layouts/application (33.8ms)
+Completed 200 OK in 76ms (Views: 46.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2012-02-11 02:00:10 +0545
+Compiled application.css  (2ms)  (pid 9103)
+Compiled bootstrap_importer.css  (337ms)  (pid 9103)
+Compiled home.css  (55ms)  (pid 9103)
+Served asset /application.css - 200 OK (414ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2012-02-11 02:00:10 +0545
+Compiled application.js  (35ms)  (pid 9103)
+Compiled jquery.js  (24ms)  (pid 9103)
+Compiled jquery_ujs.js  (0ms)  (pid 9103)
+Compiled easing.js  (28ms)  (pid 9103)
+Compiled home.js  (179ms)  (pid 9103)
+Compiled loader.js  (8ms)  (pid 9103)
+Served asset /application.js - 200 OK (292ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-02-11 02:00:11 +0545
+Served asset /logo.png - 200 OK (2ms)
+
+
+Started GET "/assets/stars.png" for 127.0.0.1 at 2012-02-11 02:00:11 +0545
+Served asset /stars.png - 200 OK (2ms)
+
+
+Started GET "/assets/footer-icons-sprite.png" for 127.0.0.1 at 2012-02-11 02:00:11 +0545
+Served asset /footer-icons-sprite.png - 200 OK (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-11 02:01:02 +0545
+  Processing by HomeController#index as HTML
+Rendered home/_top_links.html.erb (0.6ms)
+Rendered home/_logo.html.erb (0.7ms)
+Rendered home/_banner.html.erb (0.3ms)
+Rendered home/_slider.html.erb (0.3ms)
+Rendered home/_quote.html.erb (0.3ms)
+Rendered home/_footer.html.erb (0.3ms)
+Rendered home/index.html.erb within layouts/application (34.4ms)
+Completed 200 OK in 76ms (Views: 75.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2012-02-11 02:01:03 +0545
+Served asset /application.css - 200 OK (11ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2012-02-11 02:01:03 +0545
+Served asset /application.js - 200 OK (33ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-02-11 02:01:03 +0545
+Served asset /logo.png - 200 OK (1ms)
+
+
+Started GET "/assets/stars.png" for 127.0.0.1 at 2012-02-11 02:01:03 +0545
+Served asset /stars.png - 200 OK (1ms)
+
+
+Started GET "/assets/footer-icons-sprite.png" for 127.0.0.1 at 2012-02-11 02:01:03 +0545
+Served asset /footer-icons-sprite.png - 200 OK (1ms)
