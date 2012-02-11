@@ -9,8 +9,10 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-
-<%= yield %>
-
+<div class="container">
+   <%= render "home/top_links"%>
+    <%= yield %>
+  </div>
+   <%= render "home/footer"%>
 </body>
 </html>

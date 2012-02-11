@@ -25,8 +25,13 @@ describe 'home page' do
     page.should have_content('Smarter business through smarter web apps.')
   end
 
-   it 'should have footer' do
+  it 'should have footer' do
     page.should have_selector 'footer'
+  end
+
+  it 'should have navigation to services page', :js => true do
+    click_link 'Revol tech Services'
+     assert page.has_content?('services')
   end
 
 end

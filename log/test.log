@@ -376,3 +376,1008 @@ Rendered home/_slider.html.erb (0.1ms)
 Rendered home/_quote.html.erb (0.1ms)
 Rendered home/_footer.html.erb (0.1ms)
 Completed 200 OK in 3ms (Views: 3.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-11 02:41:03 +0545
+  Processing by HomeController#index as HTML
+Rendered home/_top_links.html.erb (0.6ms)
+Rendered home/_logo.html.erb (0.7ms)
+Rendered home/_banner.html.erb (0.3ms)
+Rendered home/_slider.html.erb (0.4ms)
+Rendered home/_quote.html.erb (0.3ms)
+Rendered home/_footer.html.erb (0.3ms)
+Rendered home/index.html.erb within layouts/application (35.7ms)
+Completed 200 OK in 74ms (Views: 73.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-11 02:41:04 +0545
+  Processing by HomeController#index as HTML
+Rendered home/_top_links.html.erb (0.1ms)
+Rendered home/_logo.html.erb (0.2ms)
+Rendered home/_banner.html.erb (0.0ms)
+Rendered home/_slider.html.erb (0.0ms)
+Rendered home/_quote.html.erb (0.0ms)
+Rendered home/_footer.html.erb (0.0ms)
+Completed 200 OK in 2ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-11 02:41:04 +0545
+  Processing by HomeController#index as HTML
+Rendered home/_top_links.html.erb (0.1ms)
+Rendered home/_logo.html.erb (0.2ms)
+Rendered home/_banner.html.erb (0.0ms)
+Rendered home/_slider.html.erb (0.0ms)
+Rendered home/_quote.html.erb (0.0ms)
+Rendered home/_footer.html.erb (0.0ms)
+Completed 200 OK in 2ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-11 02:41:04 +0545
+  Processing by HomeController#index as HTML
+Rendered home/_top_links.html.erb (0.1ms)
+Rendered home/_logo.html.erb (0.2ms)
+Rendered home/_banner.html.erb (0.0ms)
+Rendered home/_slider.html.erb (0.0ms)
+Rendered home/_quote.html.erb (0.0ms)
+Rendered home/_footer.html.erb (0.0ms)
+Completed 200 OK in 2ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-11 02:41:04 +0545
+  Processing by HomeController#index as HTML
+Rendered home/_top_links.html.erb (0.1ms)
+Rendered home/_logo.html.erb (0.2ms)
+Rendered home/_banner.html.erb (0.0ms)
+Rendered home/_slider.html.erb (0.0ms)
+Rendered home/_quote.html.erb (0.0ms)
+Rendered home/_footer.html.erb (0.0ms)
+Completed 200 OK in 2ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-11 02:41:04 +0545
+  Processing by HomeController#index as HTML
+Rendered home/_top_links.html.erb (0.1ms)
+Rendered home/_logo.html.erb (0.2ms)
+Rendered home/_banner.html.erb (0.0ms)
+Rendered home/_slider.html.erb (0.0ms)
+Rendered home/_quote.html.erb (0.0ms)
+Rendered home/_footer.html.erb (0.0ms)
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-11 02:41:04 +0545
+  Processing by HomeController#index as HTML
+Rendered home/_top_links.html.erb (0.1ms)
+Rendered home/_logo.html.erb (0.2ms)
+Rendered home/_banner.html.erb (0.0ms)
+Rendered home/_slider.html.erb (0.0ms)
+Rendered home/_quote.html.erb (0.0ms)
+Rendered home/_footer.html.erb (0.0ms)
+Completed 200 OK in 2ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+  Processing by ServicesController#index as HTML
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+  Processing by ServicesController#new as HTML
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-11 02:44:35 +0545
+  Processing by HomeController#index as HTML
+Rendered home/_top_links.html.erb (0.5ms)
+Rendered home/_logo.html.erb (0.7ms)
+Rendered home/_banner.html.erb (0.3ms)
+Rendered home/_slider.html.erb (0.4ms)
+Rendered home/_quote.html.erb (0.3ms)
+Rendered home/_footer.html.erb (0.3ms)
+Rendered home/index.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 47ms (Views: 47.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-11 02:44:35 +0545
+  Processing by HomeController#index as HTML
+Rendered home/_top_links.html.erb (0.1ms)
+Rendered home/_logo.html.erb (0.2ms)
+Rendered home/_banner.html.erb (0.0ms)
+Rendered home/_slider.html.erb (0.0ms)
+Rendered home/_quote.html.erb (0.0ms)
+Rendered home/_footer.html.erb (0.0ms)
+Completed 200 OK in 2ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-11 02:44:35 +0545
+  Processing by HomeController#index as HTML
+Rendered home/_top_links.html.erb (0.1ms)
+Rendered home/_logo.html.erb (0.2ms)
+Rendered home/_banner.html.erb (0.0ms)
+Rendered home/_slider.html.erb (0.0ms)
+Rendered home/_quote.html.erb (0.0ms)
+Rendered home/_footer.html.erb (0.0ms)
+Completed 200 OK in 2ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-11 02:44:35 +0545
+  Processing by HomeController#index as HTML
+Rendered home/_top_links.html.erb (0.1ms)
+Rendered home/_logo.html.erb (0.2ms)
+Rendered home/_banner.html.erb (0.0ms)
+Rendered home/_slider.html.erb (0.0ms)
+Rendered home/_quote.html.erb (0.0ms)
+Rendered home/_footer.html.erb (0.0ms)
+Completed 200 OK in 2ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-11 02:44:35 +0545
+  Processing by HomeController#index as HTML
+Rendered home/_top_links.html.erb (0.1ms)
+Rendered home/_logo.html.erb (0.2ms)
+Rendered home/_banner.html.erb (0.0ms)
+Rendered home/_slider.html.erb (0.0ms)
+Rendered home/_quote.html.erb (0.0ms)
+Rendered home/_footer.html.erb (0.0ms)
+Completed 200 OK in 2ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-11 02:44:35 +0545
+  Processing by HomeController#index as HTML
+Rendered home/_top_links.html.erb (0.1ms)
+Rendered home/_logo.html.erb (0.2ms)
+Rendered home/_banner.html.erb (0.0ms)
+Rendered home/_slider.html.erb (0.0ms)
+Rendered home/_quote.html.erb (0.0ms)
+Rendered home/_footer.html.erb (0.0ms)
+Completed 200 OK in 2ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-11 02:44:35 +0545
+  Processing by HomeController#index as HTML
+Rendered home/_top_links.html.erb (0.1ms)
+Rendered home/_logo.html.erb (0.2ms)
+Rendered home/_banner.html.erb (0.0ms)
+Rendered home/_slider.html.erb (0.0ms)
+Rendered home/_quote.html.erb (0.0ms)
+Rendered home/_footer.html.erb (0.0ms)
+Completed 200 OK in 2ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-11 02:45:03 +0545
+  Processing by HomeController#index as HTML
+Rendered home/_top_links.html.erb (0.5ms)
+Rendered home/_logo.html.erb (0.6ms)
+Rendered home/_banner.html.erb (0.3ms)
+Rendered home/_slider.html.erb (0.4ms)
+Rendered home/_quote.html.erb (0.3ms)
+Rendered home/_footer.html.erb (0.3ms)
+Rendered home/index.html.erb within layouts/application (31.7ms)
+Completed 200 OK in 68ms (Views: 68.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-11 02:45:03 +0545
+  Processing by HomeController#index as HTML
+Rendered home/_top_links.html.erb (0.1ms)
+Rendered home/_logo.html.erb (0.3ms)
+Rendered home/_banner.html.erb (0.0ms)
+Rendered home/_slider.html.erb (0.0ms)
+Rendered home/_quote.html.erb (0.0ms)
+Rendered home/_footer.html.erb (0.0ms)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-11 02:45:03 +0545
+  Processing by HomeController#index as HTML
+Rendered home/_top_links.html.erb (0.1ms)
+Rendered home/_logo.html.erb (0.2ms)
+Rendered home/_banner.html.erb (0.1ms)
+Rendered home/_slider.html.erb (0.0ms)
+Rendered home/_quote.html.erb (0.0ms)
+Rendered home/_footer.html.erb (0.0ms)
+Completed 200 OK in 2ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-11 02:45:03 +0545
+  Processing by HomeController#index as HTML
+Rendered home/_top_links.html.erb (0.1ms)
+Rendered home/_logo.html.erb (0.2ms)
+Rendered home/_banner.html.erb (0.0ms)
+Rendered home/_slider.html.erb (0.1ms)
+Rendered home/_quote.html.erb (0.0ms)
+Rendered home/_footer.html.erb (0.0ms)
+Completed 200 OK in 2ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-11 02:45:03 +0545
+  Processing by HomeController#index as HTML
+Rendered home/_top_links.html.erb (0.1ms)
+Rendered home/_logo.html.erb (0.2ms)
+Rendered home/_banner.html.erb (0.0ms)
+Rendered home/_slider.html.erb (0.0ms)
+Rendered home/_quote.html.erb (0.0ms)
+Rendered home/_footer.html.erb (0.0ms)
+Completed 200 OK in 2ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-11 02:45:03 +0545
+  Processing by HomeController#index as HTML
+Rendered home/_top_links.html.erb (0.1ms)
+Rendered home/_logo.html.erb (0.2ms)
+Rendered home/_banner.html.erb (0.1ms)
+Rendered home/_slider.html.erb (0.1ms)
+Rendered home/_quote.html.erb (0.0ms)
+Rendered home/_footer.html.erb (0.0ms)
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-11 02:45:10 +0545
+  Processing by HomeController#index as HTML
+Rendered home/_top_links.html.erb (0.1ms)
+Rendered home/_logo.html.erb (0.3ms)
+Rendered home/_banner.html.erb (0.0ms)
+Rendered home/_slider.html.erb (0.1ms)
+Rendered home/_quote.html.erb (0.0ms)
+Rendered home/_footer.html.erb (0.0ms)
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2012-02-11 02:45:10 +0545
+Compiled application.css  (2ms)  (pid 11416)
+Compiled bootstrap_importer.css  (247ms)  (pid 11416)
+Compiled home.css  (61ms)  (pid 11416)
+Compiled services.css  (1ms)  (pid 11416)
+Served asset /application.css - 200 OK (332ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2012-02-11 02:45:10 +0545
+Compiled application.js  (4ms)  (pid 11416)
+Compiled jquery.js  (2ms)  (pid 11416)
+Compiled jquery_ujs.js  (0ms)  (pid 11416)
+Compiled easing.js  (0ms)  (pid 11416)
+Compiled home.js  (82ms)  (pid 11416)
+Compiled loader.js  (0ms)  (pid 11416)
+Compiled services.js  (2ms)  (pid 11416)
+Served asset /application.js - 200 OK (111ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-02-11 02:45:10 +0545
+Served asset /logo.png - 200 OK (2ms)
+
+
+Started GET "/assets/stars.png" for 127.0.0.1 at 2012-02-11 02:45:11 +0545
+Served asset /stars.png - 200 OK (1ms)
+
+
+Started GET "/assets/footer-icons-sprite.png" for 127.0.0.1 at 2012-02-11 02:45:11 +0545
+Served asset /footer-icons-sprite.png - 200 OK (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-11 02:48:34 +0545
+  Processing by HomeController#index as HTML
+Rendered home/_top_links.html.erb (0.5ms)
+Rendered home/_logo.html.erb (0.6ms)
+Rendered home/_banner.html.erb (0.3ms)
+Rendered home/_slider.html.erb (0.4ms)
+Rendered home/_quote.html.erb (0.3ms)
+Rendered home/_footer.html.erb (0.3ms)
+Rendered home/index.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 45ms (Views: 44.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-11 02:48:34 +0545
+  Processing by HomeController#index as HTML
+Rendered home/_top_links.html.erb (0.1ms)
+Rendered home/_logo.html.erb (0.2ms)
+Rendered home/_banner.html.erb (0.0ms)
+Rendered home/_slider.html.erb (0.0ms)
+Rendered home/_quote.html.erb (0.0ms)
+Rendered home/_footer.html.erb (0.0ms)
+Completed 200 OK in 2ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-11 02:48:34 +0545
+  Processing by HomeController#index as HTML
+Rendered home/_top_links.html.erb (0.1ms)
+Rendered home/_logo.html.erb (0.2ms)
+Rendered home/_banner.html.erb (0.0ms)
+Rendered home/_slider.html.erb (0.0ms)
+Rendered home/_quote.html.erb (0.0ms)
+Rendered home/_footer.html.erb (0.0ms)
+Completed 200 OK in 2ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-11 02:48:34 +0545
+  Processing by HomeController#index as HTML
+Rendered home/_top_links.html.erb (0.1ms)
+Rendered home/_logo.html.erb (0.2ms)
+Rendered home/_banner.html.erb (0.0ms)
+Rendered home/_slider.html.erb (0.0ms)
+Rendered home/_quote.html.erb (0.0ms)
+Rendered home/_footer.html.erb (0.0ms)
+Completed 200 OK in 2ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-11 02:48:34 +0545
+  Processing by HomeController#index as HTML
+Rendered home/_top_links.html.erb (0.1ms)
+Rendered home/_logo.html.erb (0.2ms)
+Rendered home/_banner.html.erb (0.0ms)
+Rendered home/_slider.html.erb (0.0ms)
+Rendered home/_quote.html.erb (0.0ms)
+Rendered home/_footer.html.erb (0.0ms)
+Completed 200 OK in 2ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-11 02:48:34 +0545
+  Processing by HomeController#index as HTML
+Rendered home/_top_links.html.erb (0.1ms)
+Rendered home/_logo.html.erb (0.2ms)
+Rendered home/_banner.html.erb (0.0ms)
+Rendered home/_slider.html.erb (0.0ms)
+Rendered home/_quote.html.erb (0.0ms)
+Rendered home/_footer.html.erb (0.0ms)
+Completed 200 OK in 2ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-11 02:48:40 +0545
+  Processing by HomeController#index as HTML
+Rendered home/_top_links.html.erb (0.1ms)
+Rendered home/_logo.html.erb (0.3ms)
+Rendered home/_banner.html.erb (0.0ms)
+Rendered home/_slider.html.erb (0.0ms)
+Rendered home/_quote.html.erb (0.0ms)
+Rendered home/_footer.html.erb (0.0ms)
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2012-02-11 02:48:40 +0545
+Served asset /application.css - 200 OK (11ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2012-02-11 02:48:40 +0545
+Served asset /application.js - 200 OK (8ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-02-11 02:48:40 +0545
+Served asset /logo.png - 200 OK (1ms)
+
+
+Started GET "/assets/footer-icons-sprite.png" for 127.0.0.1 at 2012-02-11 02:48:41 +0545
+Served asset /footer-icons-sprite.png - 200 OK (1ms)
+
+
+Started GET "/assets/stars.png" for 127.0.0.1 at 2012-02-11 02:48:41 +0545
+Served asset /stars.png - 200 OK (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-11 02:50:05 +0545
+  Processing by HomeController#index as HTML
+Rendered home/_top_links.html.erb (1.1ms)
+Rendered home/_logo.html.erb (0.6ms)
+Rendered home/_banner.html.erb (0.3ms)
+Rendered home/_slider.html.erb (0.3ms)
+Rendered home/_quote.html.erb (0.3ms)
+Rendered home/_footer.html.erb (0.3ms)
+Rendered home/index.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 47ms (Views: 46.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-11 02:50:05 +0545
+  Processing by HomeController#index as HTML
+Rendered home/_top_links.html.erb (0.6ms)
+Rendered home/_logo.html.erb (0.2ms)
+Rendered home/_banner.html.erb (0.0ms)
+Rendered home/_slider.html.erb (0.0ms)
+Rendered home/_quote.html.erb (0.0ms)
+Rendered home/_footer.html.erb (0.0ms)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-11 02:50:05 +0545
+  Processing by HomeController#index as HTML
+Rendered home/_top_links.html.erb (0.6ms)
+Rendered home/_logo.html.erb (0.3ms)
+Rendered home/_banner.html.erb (0.0ms)
+Rendered home/_slider.html.erb (0.0ms)
+Rendered home/_quote.html.erb (0.0ms)
+Rendered home/_footer.html.erb (0.0ms)
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-11 02:50:05 +0545
+  Processing by HomeController#index as HTML
+Rendered home/_top_links.html.erb (0.6ms)
+Rendered home/_logo.html.erb (0.2ms)
+Rendered home/_banner.html.erb (0.0ms)
+Rendered home/_slider.html.erb (0.0ms)
+Rendered home/_quote.html.erb (0.0ms)
+Rendered home/_footer.html.erb (0.0ms)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-11 02:50:05 +0545
+  Processing by HomeController#index as HTML
+Rendered home/_top_links.html.erb (0.6ms)
+Rendered home/_logo.html.erb (0.2ms)
+Rendered home/_banner.html.erb (0.0ms)
+Rendered home/_slider.html.erb (0.0ms)
+Rendered home/_quote.html.erb (0.0ms)
+Rendered home/_footer.html.erb (0.0ms)
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-11 02:50:05 +0545
+  Processing by HomeController#index as HTML
+Rendered home/_top_links.html.erb (0.6ms)
+Rendered home/_logo.html.erb (0.2ms)
+Rendered home/_banner.html.erb (0.0ms)
+Rendered home/_slider.html.erb (0.0ms)
+Rendered home/_quote.html.erb (0.0ms)
+Rendered home/_footer.html.erb (0.0ms)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-11 02:50:13 +0545
+  Processing by HomeController#index as HTML
+Rendered home/_top_links.html.erb (0.7ms)
+Rendered home/_logo.html.erb (0.3ms)
+Rendered home/_banner.html.erb (0.0ms)
+Rendered home/_slider.html.erb (0.0ms)
+Rendered home/_quote.html.erb (0.0ms)
+Rendered home/_footer.html.erb (0.0ms)
+Completed 200 OK in 3ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2012-02-11 02:50:13 +0545
+Served asset /application.css - 200 OK (11ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2012-02-11 02:50:13 +0545
+Served asset /application.js - 200 OK (38ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-02-11 02:50:13 +0545
+Served asset /logo.png - 200 OK (1ms)
+
+
+Started GET "/assets/stars.png" for 127.0.0.1 at 2012-02-11 02:50:14 +0545
+Served asset /stars.png - 200 OK (1ms)
+
+
+Started GET "/assets/footer-icons-sprite.png" for 127.0.0.1 at 2012-02-11 02:50:14 +0545
+Served asset /footer-icons-sprite.png - 200 OK (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-11 02:50:52 +0545
+  Processing by HomeController#index as HTML
+Rendered home/_top_links.html.erb (1.3ms)
+Rendered home/_logo.html.erb (0.7ms)
+Rendered home/_banner.html.erb (0.4ms)
+Rendered home/_slider.html.erb (0.4ms)
+Rendered home/_quote.html.erb (0.3ms)
+Rendered home/_footer.html.erb (0.4ms)
+Rendered home/index.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 56ms (Views: 55.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-11 02:50:52 +0545
+  Processing by HomeController#index as HTML
+Rendered home/_top_links.html.erb (0.6ms)
+Rendered home/_logo.html.erb (0.2ms)
+Rendered home/_banner.html.erb (0.0ms)
+Rendered home/_slider.html.erb (0.0ms)
+Rendered home/_quote.html.erb (0.0ms)
+Rendered home/_footer.html.erb (0.0ms)
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-11 02:50:52 +0545
+  Processing by HomeController#index as HTML
+Rendered home/_top_links.html.erb (0.6ms)
+Rendered home/_logo.html.erb (0.2ms)
+Rendered home/_banner.html.erb (0.0ms)
+Rendered home/_slider.html.erb (0.0ms)
+Rendered home/_quote.html.erb (0.0ms)
+Rendered home/_footer.html.erb (0.0ms)
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-11 02:50:52 +0545
+  Processing by HomeController#index as HTML
+Rendered home/_top_links.html.erb (0.6ms)
+Rendered home/_logo.html.erb (0.2ms)
+Rendered home/_banner.html.erb (0.0ms)
+Rendered home/_slider.html.erb (0.0ms)
+Rendered home/_quote.html.erb (0.0ms)
+Rendered home/_footer.html.erb (0.0ms)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-11 02:50:52 +0545
+  Processing by HomeController#index as HTML
+Rendered home/_top_links.html.erb (0.6ms)
+Rendered home/_logo.html.erb (0.4ms)
+Rendered home/_banner.html.erb (0.0ms)
+Rendered home/_slider.html.erb (0.1ms)
+Rendered home/_quote.html.erb (0.1ms)
+Rendered home/_footer.html.erb (0.1ms)
+Completed 200 OK in 3ms (Views: 3.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-11 02:50:52 +0545
+  Processing by HomeController#index as HTML
+Rendered home/_top_links.html.erb (0.6ms)
+Rendered home/_logo.html.erb (0.2ms)
+Rendered home/_banner.html.erb (0.0ms)
+Rendered home/_slider.html.erb (0.0ms)
+Rendered home/_quote.html.erb (0.1ms)
+Rendered home/_footer.html.erb (0.1ms)
+Completed 200 OK in 33ms (Views: 32.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-11 02:50:58 +0545
+  Processing by HomeController#index as HTML
+Rendered home/_top_links.html.erb (0.7ms)
+Rendered home/_logo.html.erb (0.3ms)
+Rendered home/_banner.html.erb (0.0ms)
+Rendered home/_slider.html.erb (0.0ms)
+Rendered home/_quote.html.erb (0.0ms)
+Rendered home/_footer.html.erb (0.0ms)
+Completed 200 OK in 3ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2012-02-11 02:50:58 +0545
+Compiled application.css  (2ms)  (pid 11707)
+Compiled bootstrap_importer.css  (286ms)  (pid 11707)
+Compiled home.css  (56ms)  (pid 11707)
+Compiled services.css  (1ms)  (pid 11707)
+Served asset /application.css - 200 OK (366ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2012-02-11 02:50:59 +0545
+Compiled application.js  (4ms)  (pid 11707)
+Compiled jquery.js  (2ms)  (pid 11707)
+Compiled jquery_ujs.js  (0ms)  (pid 11707)
+Compiled easing.js  (0ms)  (pid 11707)
+Compiled home.js  (93ms)  (pid 11707)
+Compiled loader.js  (0ms)  (pid 11707)
+Compiled services.js  (1ms)  (pid 11707)
+Served asset /application.js - 200 OK (286ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-02-11 02:50:59 +0545
+Served asset /logo.png - 200 OK (2ms)
+
+
+Started GET "/assets/stars.png" for 127.0.0.1 at 2012-02-11 02:50:59 +0545
+Served asset /stars.png - 200 OK (6ms)
+
+
+Started GET "/assets/footer-icons-sprite.png" for 127.0.0.1 at 2012-02-11 02:50:59 +0545
+Served asset /footer-icons-sprite.png - 200 OK (2ms)
+
+
+Started GET "/services" for 127.0.0.1 at 2012-02-11 02:51:04 +0545
+  Processing by ServicesController#index as HTML
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/null" for 127.0.0.1 at 2012-02-11 02:51:04 +0545
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-11 02:52:05 +0545
+  Processing by HomeController#index as HTML
+Rendered home/_top_links.html.erb (1.1ms)
+Rendered home/_logo.html.erb (0.6ms)
+Rendered home/_banner.html.erb (0.3ms)
+Rendered home/_slider.html.erb (0.4ms)
+Rendered home/_quote.html.erb (0.3ms)
+Rendered home/_footer.html.erb (0.3ms)
+Rendered home/index.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 48ms (Views: 47.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-11 02:52:05 +0545
+  Processing by HomeController#index as HTML
+Rendered home/_top_links.html.erb (0.6ms)
+Rendered home/_logo.html.erb (0.2ms)
+Rendered home/_banner.html.erb (0.0ms)
+Rendered home/_slider.html.erb (0.0ms)
+Rendered home/_quote.html.erb (0.0ms)
+Rendered home/_footer.html.erb (0.0ms)
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-11 02:52:05 +0545
+  Processing by HomeController#index as HTML
+Rendered home/_top_links.html.erb (0.6ms)
+Rendered home/_logo.html.erb (0.3ms)
+Rendered home/_banner.html.erb (0.0ms)
+Rendered home/_slider.html.erb (0.0ms)
+Rendered home/_quote.html.erb (0.0ms)
+Rendered home/_footer.html.erb (0.0ms)
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-11 02:52:05 +0545
+  Processing by HomeController#index as HTML
+Rendered home/_top_links.html.erb (0.6ms)
+Rendered home/_logo.html.erb (0.2ms)
+Rendered home/_banner.html.erb (0.0ms)
+Rendered home/_slider.html.erb (0.0ms)
+Rendered home/_quote.html.erb (0.0ms)
+Rendered home/_footer.html.erb (0.0ms)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-11 02:52:05 +0545
+  Processing by HomeController#index as HTML
+Rendered home/_top_links.html.erb (0.6ms)
+Rendered home/_logo.html.erb (0.2ms)
+Rendered home/_banner.html.erb (0.0ms)
+Rendered home/_slider.html.erb (0.0ms)
+Rendered home/_quote.html.erb (0.0ms)
+Rendered home/_footer.html.erb (0.0ms)
+Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-11 02:52:05 +0545
+  Processing by HomeController#index as HTML
+Rendered home/_top_links.html.erb (0.6ms)
+Rendered home/_logo.html.erb (0.2ms)
+Rendered home/_banner.html.erb (0.0ms)
+Rendered home/_slider.html.erb (0.0ms)
+Rendered home/_quote.html.erb (0.0ms)
+Rendered home/_footer.html.erb (0.0ms)
+Completed 200 OK in 3ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-11 02:52:11 +0545
+  Processing by HomeController#index as HTML
+Rendered home/_top_links.html.erb (0.7ms)
+Rendered home/_logo.html.erb (0.3ms)
+Rendered home/_banner.html.erb (0.0ms)
+Rendered home/_slider.html.erb (0.0ms)
+Rendered home/_quote.html.erb (0.0ms)
+Rendered home/_footer.html.erb (0.0ms)
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2012-02-11 02:52:11 +0545
+Served asset /application.css - 200 OK (16ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2012-02-11 02:52:11 +0545
+Served asset /application.js - 200 OK (62ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-02-11 02:52:11 +0545
+Served asset /logo.png - 200 OK (2ms)
+
+
+Started GET "/assets/footer-icons-sprite.png" for 127.0.0.1 at 2012-02-11 02:52:12 +0545
+Served asset /footer-icons-sprite.png - 200 OK (5ms)
+
+
+Started GET "/assets/stars.png" for 127.0.0.1 at 2012-02-11 02:52:12 +0545
+Served asset /stars.png - 200 OK (1ms)
+
+
+Started GET "/services" for 127.0.0.1 at 2012-02-11 02:52:19 +0545
+  Processing by ServicesController#index as HTML
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/null" for 127.0.0.1 at 2012-02-11 02:52:19 +0545
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-11 02:55:59 +0545
+  Processing by HomeController#index as HTML
+Rendered home/_logo.html.erb (0.7ms)
+Rendered home/_banner.html.erb (0.3ms)
+Rendered home/_slider.html.erb (0.3ms)
+Rendered home/_quote.html.erb (0.3ms)
+Rendered home/index.html.erb within layouts/application (6.8ms)
+Rendered home/_top_links.html.erb (1.0ms)
+Rendered home/_footer.html.erb (0.3ms)
+Completed 200 OK in 46ms (Views: 45.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-11 02:55:59 +0545
+  Processing by HomeController#index as HTML
+Rendered home/_logo.html.erb (0.2ms)
+Rendered home/_banner.html.erb (0.0ms)
+Rendered home/_slider.html.erb (0.0ms)
+Rendered home/_quote.html.erb (0.0ms)
+Rendered home/_top_links.html.erb (0.6ms)
+Rendered home/_footer.html.erb (0.0ms)
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-11 02:55:59 +0545
+  Processing by HomeController#index as HTML
+Rendered home/_logo.html.erb (0.2ms)
+Rendered home/_banner.html.erb (0.0ms)
+Rendered home/_slider.html.erb (0.0ms)
+Rendered home/_quote.html.erb (0.1ms)
+Rendered home/_top_links.html.erb (0.5ms)
+Rendered home/_footer.html.erb (0.0ms)
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-11 02:55:59 +0545
+  Processing by HomeController#index as HTML
+Rendered home/_logo.html.erb (0.2ms)
+Rendered home/_banner.html.erb (0.0ms)
+Rendered home/_slider.html.erb (0.0ms)
+Rendered home/_quote.html.erb (0.0ms)
+Rendered home/_top_links.html.erb (0.5ms)
+Rendered home/_footer.html.erb (0.0ms)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-11 02:55:59 +0545
+  Processing by HomeController#index as HTML
+Rendered home/_logo.html.erb (0.3ms)
+Rendered home/_banner.html.erb (0.0ms)
+Rendered home/_slider.html.erb (0.0ms)
+Rendered home/_quote.html.erb (0.0ms)
+Rendered home/_top_links.html.erb (0.8ms)
+Rendered home/_footer.html.erb (0.0ms)
+Completed 200 OK in 3ms (Views: 3.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-11 02:55:59 +0545
+  Processing by HomeController#index as HTML
+Rendered home/_logo.html.erb (0.2ms)
+Rendered home/_banner.html.erb (0.0ms)
+Rendered home/_slider.html.erb (0.0ms)
+Rendered home/_quote.html.erb (0.0ms)
+Rendered home/_top_links.html.erb (0.5ms)
+Rendered home/_footer.html.erb (0.0ms)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-11 02:56:05 +0545
+  Processing by HomeController#index as HTML
+Rendered home/_logo.html.erb (0.4ms)
+Rendered home/_banner.html.erb (0.0ms)
+Rendered home/_slider.html.erb (0.0ms)
+Rendered home/_quote.html.erb (0.0ms)
+Rendered home/_top_links.html.erb (0.6ms)
+Rendered home/_footer.html.erb (0.0ms)
+Completed 200 OK in 3ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2012-02-11 02:56:05 +0545
+Served asset /application.css - 200 OK (15ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2012-02-11 02:56:05 +0545
+Served asset /application.js - 200 OK (47ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-02-11 02:56:05 +0545
+Served asset /logo.png - 200 OK (1ms)
+
+
+Started GET "/assets/stars.png" for 127.0.0.1 at 2012-02-11 02:56:06 +0545
+Served asset /stars.png - 200 OK (2ms)
+
+
+Started GET "/assets/footer-icons-sprite.png" for 127.0.0.1 at 2012-02-11 02:56:06 +0545
+Served asset /footer-icons-sprite.png - 200 OK (1ms)
+
+
+Started GET "/images/dod.jpg" for 127.0.0.1 at 2012-02-11 02:56:18 +0545
+
+
+Started GET "/services" for 127.0.0.1 at 2012-02-11 02:56:26 +0545
+  Processing by ServicesController#index as HTML
+Completed 500 Internal Server Error in 8ms
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-11 02:59:15 +0545
+  Processing by HomeController#index as HTML
+Rendered home/_logo.html.erb (0.7ms)
+Rendered home/_banner.html.erb (0.3ms)
+Rendered home/_slider.html.erb (0.3ms)
+Rendered home/_quote.html.erb (0.3ms)
+Rendered home/index.html.erb within layouts/application (6.6ms)
+Rendered home/_top_links.html.erb (1.0ms)
+Rendered home/_footer.html.erb (0.3ms)
+Completed 200 OK in 45ms (Views: 45.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-11 02:59:16 +0545
+  Processing by HomeController#index as HTML
+Rendered home/_logo.html.erb (0.3ms)
+Rendered home/_banner.html.erb (0.0ms)
+Rendered home/_slider.html.erb (0.0ms)
+Rendered home/_quote.html.erb (0.0ms)
+Rendered home/_top_links.html.erb (0.6ms)
+Rendered home/_footer.html.erb (0.0ms)
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-11 02:59:16 +0545
+  Processing by HomeController#index as HTML
+Rendered home/_logo.html.erb (0.2ms)
+Rendered home/_banner.html.erb (0.0ms)
+Rendered home/_slider.html.erb (0.0ms)
+Rendered home/_quote.html.erb (0.0ms)
+Rendered home/_top_links.html.erb (0.6ms)
+Rendered home/_footer.html.erb (0.0ms)
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-11 02:59:16 +0545
+  Processing by HomeController#index as HTML
+Rendered home/_logo.html.erb (0.3ms)
+Rendered home/_banner.html.erb (0.0ms)
+Rendered home/_slider.html.erb (0.0ms)
+Rendered home/_quote.html.erb (0.0ms)
+Rendered home/_top_links.html.erb (0.5ms)
+Rendered home/_footer.html.erb (0.0ms)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-11 02:59:16 +0545
+  Processing by HomeController#index as HTML
+Rendered home/_logo.html.erb (0.2ms)
+Rendered home/_banner.html.erb (0.0ms)
+Rendered home/_slider.html.erb (0.0ms)
+Rendered home/_quote.html.erb (0.0ms)
+Rendered home/_top_links.html.erb (0.5ms)
+Rendered home/_footer.html.erb (0.0ms)
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-11 02:59:16 +0545
+  Processing by HomeController#index as HTML
+Rendered home/_logo.html.erb (0.3ms)
+Rendered home/_banner.html.erb (0.0ms)
+Rendered home/_slider.html.erb (0.0ms)
+Rendered home/_quote.html.erb (0.0ms)
+Rendered home/_top_links.html.erb (0.5ms)
+Rendered home/_footer.html.erb (0.0ms)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-11 02:59:22 +0545
+  Processing by HomeController#index as HTML
+Rendered home/_logo.html.erb (0.3ms)
+Rendered home/_banner.html.erb (0.0ms)
+Rendered home/_slider.html.erb (0.0ms)
+Rendered home/_quote.html.erb (0.0ms)
+Rendered home/_top_links.html.erb (0.6ms)
+Rendered home/_footer.html.erb (0.0ms)
+Completed 200 OK in 3ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2012-02-11 02:59:22 +0545
+Served asset /application.css - 200 OK (12ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2012-02-11 02:59:22 +0545
+Served asset /application.js - 200 OK (40ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-02-11 02:59:22 +0545
+Served asset /logo.png - 200 OK (1ms)
+
+
+Started GET "/assets/footer-icons-sprite.png" for 127.0.0.1 at 2012-02-11 02:59:23 +0545
+Served asset /footer-icons-sprite.png - 200 OK (2ms)
+
+
+Started GET "/assets/stars.png" for 127.0.0.1 at 2012-02-11 02:59:23 +0545
+Served asset /stars.png - 200 OK (1ms)
+
+
+Started GET "/services" for 127.0.0.1 at 2012-02-11 02:59:27 +0545
+  Processing by ServicesController#index as HTML
+Completed 500 Internal Server Error in 11ms
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-11 03:03:34 +0545
+  Processing by HomeController#index as HTML
+Rendered home/_logo.html.erb (0.7ms)
+Rendered home/_banner.html.erb (0.3ms)
+Rendered home/_slider.html.erb (0.4ms)
+Rendered home/_quote.html.erb (0.3ms)
+Rendered home/index.html.erb within layouts/application (6.9ms)
+Rendered home/_top_links.html.erb (1.0ms)
+Rendered home/_footer.html.erb (0.3ms)
+Completed 200 OK in 46ms (Views: 45.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-11 03:03:34 +0545
+  Processing by HomeController#index as HTML
+Rendered home/_logo.html.erb (0.3ms)
+Rendered home/_banner.html.erb (0.0ms)
+Rendered home/_slider.html.erb (0.0ms)
+Rendered home/_quote.html.erb (0.0ms)
+Rendered home/_top_links.html.erb (0.6ms)
+Rendered home/_footer.html.erb (0.0ms)
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-11 03:03:34 +0545
+  Processing by HomeController#index as HTML
+Rendered home/_logo.html.erb (0.2ms)
+Rendered home/_banner.html.erb (0.0ms)
+Rendered home/_slider.html.erb (0.0ms)
+Rendered home/_quote.html.erb (0.0ms)
+Rendered home/_top_links.html.erb (0.6ms)
+Rendered home/_footer.html.erb (0.0ms)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-11 03:03:34 +0545
+  Processing by HomeController#index as HTML
+Rendered home/_logo.html.erb (0.2ms)
+Rendered home/_banner.html.erb (0.0ms)
+Rendered home/_slider.html.erb (0.0ms)
+Rendered home/_quote.html.erb (0.0ms)
+Rendered home/_top_links.html.erb (0.5ms)
+Rendered home/_footer.html.erb (0.0ms)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-11 03:03:34 +0545
+  Processing by HomeController#index as HTML
+Rendered home/_logo.html.erb (0.2ms)
+Rendered home/_banner.html.erb (0.0ms)
+Rendered home/_slider.html.erb (0.0ms)
+Rendered home/_quote.html.erb (0.0ms)
+Rendered home/_top_links.html.erb (0.5ms)
+Rendered home/_footer.html.erb (0.0ms)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-11 03:03:34 +0545
+  Processing by HomeController#index as HTML
+Rendered home/_logo.html.erb (0.3ms)
+Rendered home/_banner.html.erb (0.0ms)
+Rendered home/_slider.html.erb (0.0ms)
+Rendered home/_quote.html.erb (0.0ms)
+Rendered home/_top_links.html.erb (0.6ms)
+Rendered home/_footer.html.erb (0.0ms)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-11 03:03:40 +0545
+  Processing by HomeController#index as HTML
+Rendered home/_logo.html.erb (0.3ms)
+Rendered home/_banner.html.erb (0.0ms)
+Rendered home/_slider.html.erb (0.0ms)
+Rendered home/_quote.html.erb (0.0ms)
+Rendered home/_top_links.html.erb (0.6ms)
+Rendered home/_footer.html.erb (0.0ms)
+Completed 200 OK in 3ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2012-02-11 03:03:40 +0545
+Served asset /application.css - 200 OK (11ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2012-02-11 03:03:40 +0545
+Served asset /application.js - 200 OK (40ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-02-11 03:03:41 +0545
+Served asset /logo.png - 200 OK (1ms)
+
+
+Started GET "/assets/footer-icons-sprite.png" for 127.0.0.1 at 2012-02-11 03:03:41 +0545
+Served asset /footer-icons-sprite.png - 200 OK (1ms)
+
+
+Started GET "/assets/stars.png" for 127.0.0.1 at 2012-02-11 03:03:41 +0545
+Served asset /stars.png - 200 OK (2ms)
+
+
+Started GET "/services" for 127.0.0.1 at 2012-02-11 03:03:50 +0545
+  Processing by ServicesController#index as HTML
+Rendered home/_top_links.html.erb (1.1ms)
+Rendered home/_footer.html.erb (0.0ms)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/null" for 127.0.0.1 at 2012-02-11 03:03:50 +0545
