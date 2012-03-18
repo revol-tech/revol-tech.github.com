@@ -1,5 +1,10 @@
 class ProjectsController < ApplicationController
+
+  before_filter :authenticate_user!
+  layout :admin_layout
+
   def index
+
   end
 
   def show
