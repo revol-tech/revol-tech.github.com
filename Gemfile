@@ -8,6 +8,9 @@ gem 'rails', '3.1.3'
 gem 'sqlite3'
 gem 'jquery-rails'
 gem "twitter-bootstrap-rails"
+gem "devise"
+gem "haml-rails"
+
 # Deploy with Capistrano
  gem 'capistrano'
 
@@ -16,7 +19,7 @@ group :production do
 end
 
 group :development do
-  gem "haml-rails"
+
 end
 
 # Gems used only for assets and not required
