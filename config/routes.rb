@@ -1,4 +1,18 @@
 RevolTechGithubCom::Application.routes.draw do
+  get "projects/index"
+
+  get "projects/show"
+
+  get "projects/create"
+
+  get "projects/destroy"
+
+  get "projects/edit"
+
+  get "projects/new"
+
+  get "projects/update"
+
   devise_for :users
 
   resources :services
