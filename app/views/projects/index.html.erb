@@ -1,2 +1,7 @@
-%h1 Projects#index
-%p Find me in app/views/projects/index.html.haml
+<%unless @projects.empty? %>
+  <%@projects.each do |p| %>
+    <%= p.title%>
+  <% end %>
+<%else%>
+    <span class="label custom-label-info label-info"> You Have No Projects Yet!</span>
+<%end%>
