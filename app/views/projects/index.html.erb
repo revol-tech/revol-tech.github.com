@@ -1,3 +1,4 @@
+<div id="signin" style="height:370px;float:left;display:block;width:100%;">
 <%unless @projects.empty? %>
   <%@projects.each do |p| %>
     <%= p.title%>
@@ -5,3 +6,4 @@
 <%else%>
     <span class="label custom-label-info label-info"> You Have No Projects Yet!</span>
 <%end%>
+</div>
