@@ -9,7 +9,7 @@ gem 'sqlite3'
 gem 'jquery-rails'
 gem "twitter-bootstrap-rails"
 gem "devise"
-gem "haml-rails"
+#gem "haml-rails"
 
 # Deploy with Capistrano
  gem 'capistrano'

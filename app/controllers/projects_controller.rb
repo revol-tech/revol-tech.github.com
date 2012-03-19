@@ -4,7 +4,7 @@ class ProjectsController < ApplicationController
   layout :admin_layout
 
   def index
-
+    @projects = Project.all
   end
 
   def show

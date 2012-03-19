@@ -18,9 +18,13 @@
     <li>
       <a href="https://twitter.com/RevolTech2"  data-show-count="false" data-width="200px">Follow us on Twitter </a>
     </li>
+    <% unless user_signed_in? %>
     <li>
-      <a href="#">Sign in</a>
+      <%= link_to("sign in",new_user_session_path) %>
     </li>
+    <% else %>
+      <%= link_to("projects","#")%>
+    <%end %>
   </ul>
   <hr>
 </div>
