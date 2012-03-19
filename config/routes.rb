@@ -1,5 +1,7 @@
 RevolTechGithubCom::Application.routes.draw do
 
+get "home/revolutionaries"
+
 
   devise_for :users
 

@@ -1,0 +1,89 @@
+#employee_profile{
+		display: block;
+		width:960px;
+		float:left;
+		margin: 30px 0 0;
+		box-shadow:0 0 10px #888888;
+		-moz-box-shadow:0 0 10px #888888;
+		-webkit-box-shadow:0 0 10px #888888;
+		border-radius:10px;
+		-moz-border-radius:10px;
+		-webkit-border-radius:10px;
+		background-color:#fff;
+
+}
+
+#employe_image {
+    display: block;
+    float: left;
+    height: 150px;
+    padding: 30px 0 30px 35px;
+    width: 170px;
+}
+
+.employes_image{
+		display:block;
+		width:150px;
+		height:150px;
+}
+
+#employes_text{
+		display:block;
+		float:left;
+}
+
+#employe_header{
+			display:block;
+			width:700px;
+			height:70px;
+			overflow:hidden;
+}
+
+#employe_header p{
+		display:block;
+		font-size: 30px;
+		text-align:justify;
+		font-family: Helvetica,Arial,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: normal;
+		color:#179bc1;
+		margin:27px 0 0 0;
+
+}
+
+#text_lowercase {
+		display:block;
+		width:700px;
+		margin: 20px 0 0 0;
+
+
+}
+
+#text_lowercase p{
+		display:block;
+		font-size: 16px;
+		text-align:justify;
+		line-height:25px;
+		font-family: Helvetica,Arial,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: normal;
+		color:#696969;
+		margin:0 0 15px 0;
+
+}
+
+#employee_profile1{
+		display: block;
+		width:960px;
+		float:left;
+		margin: 30px 0 30px 0;
+	box-shadow:0 0 10px #888888;
+		border-radius:10px;
+		-moz-box-shadow:0 0 10px #888888;
+		-webkit-box-shadow:0 0 10px #888888;
+		-moz-border-radius:10px;
+		-webkit-border-radius:10px;
+		background-color:#fff;
+}
