@@ -1,7 +1,7 @@
 class ProjectsController < ApplicationController
 
   before_filter :authenticate_user!
-  layout :admin_layout
+  layout "admin"
 
   def index
     @projects = Project.all

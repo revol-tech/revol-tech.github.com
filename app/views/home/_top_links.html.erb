@@ -23,7 +23,7 @@
       <%= link_to("sign in",new_user_session_path) %>
     </li>
     <% else %>
-      <%= link_to("projects","#")%>
+      <%= link_to("projects",projects_path)%> | <%= link_to("sign out", destroy_user_session_path, :method => :delete)%>
     <%end %>
   </ul>
   <hr>
