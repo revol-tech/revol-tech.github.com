@@ -1,14 +1,13 @@
 RevolTechGithubCom::Application.routes.draw do
 
 
+  devise_for :users
 
 get "home/revolutionaries"
 get "home/services"
-
-
 get "home/portfolio"
 
-  devise_for :users
+
 
   resources :projects
 
