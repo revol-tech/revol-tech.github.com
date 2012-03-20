@@ -238,12 +238,26 @@ footer p {
 #footer-floor h4,#footer-floor h3 {
     color: #FFFFFF;
 }
-footer #footer-floor #elsewhere-icons a {
-    background: url("footer-icons-sprite.png") no-repeat scroll 0 0 transparent;
+
+/*......julfikar......*/
+.facebook {
+    background: url("footer-icons-sprite.png") no-repeat scroll -35px top transparent;
+    display: block;
     float: left;
     height: 35px;
-    margin: 0 5px 0 0;
-    overflow: hidden;
-    text-indent: -900px;
-    width: 95px;
+    width: 33px;
+}
+.twitter {
+    background: url("footer-icons-sprite.png") no-repeat scroll left top transparent;
+    display: block;
+    float: left;
+    height: 35px;
+    width: 33px;
+}
+.rss {
+    background: url("footer-icons-sprite.png") no-repeat scroll right top transparent;
+    display: block;
+    float: left;
+    height: 35px;
+    width: 33px;
 }
