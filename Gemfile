@@ -20,7 +20,7 @@ group :production do
 end
 
 group :development do
-
+gem 'pry-rails'
 end
 
 # Gems used only for assets and not required
