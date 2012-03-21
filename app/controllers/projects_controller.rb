@@ -1,7 +1,6 @@
 class ProjectsController < ApplicationController
 
   before_filter :authenticate_user!
-#  layout "admin"
 
   def index
     @projects = current_user.projects
@@ -21,12 +20,10 @@ class ProjectsController < ApplicationController
 
   def new
   end
-
   def update
   end
-
 	def user_info
-		@users = User.all
-		@users = current_user
+		@user = current_user
 	end
+
 end
