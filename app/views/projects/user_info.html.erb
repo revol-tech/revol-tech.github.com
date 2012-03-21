@@ -1,0 +1,14 @@
+<%= form_for (@users) do |f| %>
+  <%= f.label :name %>
+  <%= f.text_field:name %><br />
+
+	<%= f.label :organization %>
+	<%= f.text_field:organization %>
+	
+	<%= f.label :Address%>
+	<%= f.text_field:address%>
+	
+	<%= f.label :Phone_No%>
+	<%= f.text_field:phone_no%>  
+  <%= f.submit %>
+<% end %>

@@ -9,9 +9,10 @@ get "home/revolutionaries"
 get "home/services"
 get "home/aboutus"
 get "home/portfolio"
+get "projects/user_info"
 
 
-
+	resources :users
   resources :projects
 
   # The priority is based upon order of creation:

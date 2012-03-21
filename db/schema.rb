@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120320192503) do
+ActiveRecord::Schema.define(:version => 20120321070452) do
 
   create_table "projects", :force => true do |t|
     t.string   "title"
@@ -52,6 +52,10 @@ ActiveRecord::Schema.define(:version => 20120320192503) do
     t.datetime "updated_at"
     t.boolean  "admin"
     t.integer  "project_id"
+    t.string   "name"
+    t.string   "organization"
+    t.string   "address"
+    t.integer  "phone_no"
   end
 
   add_index "users", ["email"], :name => "index_users_on_email", :unique => true
