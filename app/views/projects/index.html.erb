@@ -1,15 +1,19 @@
 
 <div>
   <div class ="profile">
+  <div id="user_profile">
+   <h3>Client Profile</h3>
     <ul>
-      <li class = "user_display"><label>Name </label><%= current_user.name %></li>
-      <li class = "user_display" ><label>Address</label><%= current_user.address%></li>
-      <li class = "user_display"><label>Organization</label><%= current_user.organization%></li>
-      <li class="user_display"><label>Contact Number</label><%= current_user.phone_no%></li>
+      <li class = "user_display"><label>Name: </label><%= current_user.name %></li>
+      <li class = "user_display" ><label>Address:</label><%= current_user.address%></li>
+      <li class = "user_display"><label>Organization:</label><%= current_user.organization%></li>
+      <li class="user_display"><label>Contact Number:</label><%= current_user.phone_no%></li>
     </ul>
-      <%= link_to "Edit Profile", projects_user_info_path%>
+      <%= link_to "Edit Profile", projects_user_info_path,:class=>"edit_profile"%>
   </div>
-  <p>Projects</p>
+  </div>
+  <div class="user_project">
+  <h3>Projects</h3>
   <ul>
     <%unless @projects.empty? %>
       <%@projects.each do |p| %>
@@ -19,4 +23,5 @@
       <span class="label custom-label-info label-info"> You Have No Projects Yet!</span>
     <%end%>
   </ul>
+  </div>
 </div>

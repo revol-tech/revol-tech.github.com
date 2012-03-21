@@ -1,13 +1,52 @@
-.user_new{
-	margin-left:255px;
+#signin,#signup{
+   width:355px;
+   margin-left:275px;
+   display:block;
+   float:left;
+
 }
 
-label {
-    margin-right: 10px;
-    margin-top: 20px;
+#signin label,#signup label{
+    font-size:12px;
+    margin:20px 0 0 0;
+    text-align:left;
+    width:0 auto;
 }
-input, textarea {
+#signin input,#signup input{
+  margin:8px 0 0 5px;
 
-    margin-top: 20px;
-    margin-left:10px;
+}
+#user_remember_me{
+margin:30px 0 0 10px !important;
+}
+.submit{
+ margin:10px 0 0 130px !important;
+}
+#user_profile{
+  width:350px;
+  float:left;
+  margin:25px 0 0 230px;
+
+}
+
+
+.user_project{
+  width:300px;
+  float:left;
+  margin:25px 0 0 45px;
+}
+.edit_profile{
+ margin-left:175px;
+
+}
+.repos{
+font-size:18px;
+margin:10px 0 0 0;
+}
+.sign_up{
+float:right;
+
+
+
+
 }
