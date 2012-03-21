@@ -1,14 +1,32 @@
-#portfolio{
+.portfolio{
 width:960px;
+display:block;
+margin:40px auto 0;
+float:left;
 }
 
 .sub_portfolio{
 float:left;
+width:445px;
+height:520px;
+margin:0px 0 0 0;
+
 }
 
 .sub_portfolio1{
 float:left;
-margin: 0 0 0 70px;
+width:445px;
+height:520px;
+margin: 0px 0 0 50px;
+
+}
+
+.sub_portfolio2{
+float:left;
+width:445px;
+height:520px;
+margin: 40px 0 0 0;
+
 }
 p.revolution,p.aboutus,p.port_folio{
 
@@ -22,4 +40,10 @@ p.revolution,p.aboutus,p.port_folio{
     letter-spacing: 0px;
     line-height: 1em;
     margin-bottom: 20px;
+}
+
+.port_image{
+    width:445px;
+    height:493px;
+
 }
