@@ -1,12 +1,13 @@
 class ProjectsController < ApplicationController
 
   before_filter :authenticate_user!
-  before_filter :initialize_github
+
   def index
     @projects = current_user.projects
   end
 
   def show
+  @project = Project.find(params[:id])
   end
 
   def create
@@ -28,12 +29,5 @@ class ProjectsController < ApplicationController
 
   private
 
-  def initialize_github
-    @github = Github.new do |opts|
-      opts.user = "revol-tech"
-      opts.repo = "revol-tech.github.com.np"
-      opts.login = "revol-tech"
-      opts.password = "bhaktapur11"
-    end
-  end
+
 end
