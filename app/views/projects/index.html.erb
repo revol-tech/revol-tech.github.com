@@ -1,8 +1,9 @@
-
-<%= @user.name %>
-<%= @user.organization%>
-<%= @user.address%>
-<%= @user.phone_no%>
+<div>
+<li class="user_display"><%= @user.name %></li></br>
+<li class="user_display"><%= @user.organization%></li></br>
+<li class="user_display"><%= @user.address%></li></br>
+<li class="user_display"><%= @user.phone_no%></li></br>
+</div>
 <%unless @projects.empty? %>
   <%@projects.each do |p| %>
     <%= p.title%>
