@@ -5,3 +5,9 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+
+["user@gmail.com|password|false","admin@gmail.com|bhaktapur11|true"].each do |t|
+    email,encrypted_password,admin = t.chomp.split("|")
+    User.create!(:email => email, :password => encrypted_password,:admin=>admin)
+  end
