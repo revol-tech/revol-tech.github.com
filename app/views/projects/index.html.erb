@@ -4,10 +4,10 @@
   <div id="user_profile">
    <h3>Client Profile</h3>
     <ul>
-      <li class = "user_display"><label>Name: </label><%= current_user.name %></li>
-      <li class = "user_display" ><label>Address:</label><%= current_user.address%></li>
-      <li class = "user_display"><label>Organization:</label><%= current_user.organization%></li>
-      <li class="user_display"><label>Contact Number:</label><%= current_user.phone_no%></li>
+      <li class = "user_display"><label>Name: </label><span><%= current_user.name.humanize %></span></li>
+      <li class = "user_display" ><label>Address:</label><span><%= current_user.address.humanize%></span></li>
+      <li class = "user_display"><label>Organization:</label><span><%= current_user.organization.humanize%></span></li>
+      <li class="user_display"><label>Contact Number:</label><span><%= current_user.phone_no%></span></li>
     </ul>
       <%= link_to "Edit Profile", projects_user_info_path,:class=>"edit_profile"%>
   </div>

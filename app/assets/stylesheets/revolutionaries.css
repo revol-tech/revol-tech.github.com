@@ -6,8 +6,11 @@ float:left;
 
 }
 .rev_img{
-  height:135px;
+  height:134px;
   width:200px;
+  padding:5px;
+ -moz-box-shadow:inset 0 0 10px #000000;
+ -webkit-box-shadow:inset 0 0 10px #000000;
 
 }
 .info {
