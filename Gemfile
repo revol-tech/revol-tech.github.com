@@ -10,6 +10,7 @@ gem 'jquery-rails'
 gem "twitter-bootstrap-rails"
 gem "devise"
 gem 'rails_admin', :git => 'git://github.com/sferik/rails_admin.git'
+gem "github_api"
 
 
 # Deploy with Capistrano
