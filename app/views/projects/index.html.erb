@@ -1,14 +1,21 @@
 <div>
-  <%= current_user.name %>
-  <%= current_user.organization%>
-  <%= current_user.address%>
-  <%= current_user.phone_no%>
-<%unless @projects.empty? %>
-  <%@projects.each do |p| %>
-    <%= p.title%>
-  <% end %>
-<%else%>
-    <span class="label custom-label-info label-info"> You Have No Projects Yet!</span>
-<%= link_to "Edit Profile", projects_user_info_path%>
-<%end%>
+  <div class ="profile">
+    <ul>
+      <li class = "user_display"><label>Name </label><%= current_user.name %></li>
+      <li class = "user_display" ><label>Address</label><%= current_user.address%></li>
+      <li class = "user_display"><label>Organization</label><%= current_user.organization%></li>
+      <li class="user_display"><label>Contact Number</label><%= current_user.phone_no%></li>
+    </ul>
+      <%= link_to "Edit Profile", projects_user_info_path%>
+  </div>
+  <p>Projects</p>
+  <ul>
+    <%unless @projects.empty? %>
+      <%@projects.each do |p| %>
+        <li class = "repos"><%= link_to(p.repo,project_path(p.id)) %></li>
+      <% end %>
+    <%else%>
+      <span class="label custom-label-info label-info"> You Have No Projects Yet!</span>
+    <%end%>
+  </ul>
 </div>

@@ -7,6 +7,6 @@ class ApplicationController < ActionController::Base
   end
 
   def authenticate_admin
-  redirect_to "http://localhost:3000" unless current_user.try(:admin?)
+    redirect_to "http://localhost:3000" unless current_user.try(:admin?)
   end
 end
