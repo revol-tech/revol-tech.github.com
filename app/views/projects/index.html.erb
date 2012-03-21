@@ -1,8 +1,13 @@
 
+<%= @user.name %>
+<%= @user.organization%>
+<%= @user.address%>
+<%= @user.phone_no%>
 <%unless @projects.empty? %>
   <%@projects.each do |p| %>
     <%= p.title%>
   <% end %>
 <%else%>
     <span class="label custom-label-info label-info"> You Have No Projects Yet!</span>
+<%= link_to "Edit Profile", projects_user_info_path%>    
 <%end%>

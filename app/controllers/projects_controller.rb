@@ -5,6 +5,8 @@ class ProjectsController < ApplicationController
 
   def index
     @projects = Project.all
+     @user = User.all
+     @user = current_user
   end
 
   def show
@@ -25,4 +27,8 @@ class ProjectsController < ApplicationController
   def update
   end
 
+	def user_info	
+		@users = User.all
+		@users = current_user
+	end
 end
