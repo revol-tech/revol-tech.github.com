@@ -1,14 +1,14 @@
 <div>
-<li class="user_display"><%= @user.name %></li></br>
-<li class="user_display"><%= @user.organization%></li></br>
-<li class="user_display"><%= @user.address%></li></br>
-<li class="user_display"><%= @user.phone_no%></li></br>
-</div>
+  <%= current_user.name %>
+  <%= current_user.organization%>
+  <%= current_user.address%>
+  <%= current_user.phone_no%>
 <%unless @projects.empty? %>
   <%@projects.each do |p| %>
     <%= p.title%>
   <% end %>
 <%else%>
     <span class="label custom-label-info label-info"> You Have No Projects Yet!</span>
-<%= link_to "Edit Profile", projects_user_info_path%>    
+<%= link_to "Edit Profile", projects_user_info_path%>
 <%end%>
+</div>
