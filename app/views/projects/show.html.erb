@@ -1,4 +1,3 @@
-<% github = @project.initialize_github%>
 <h3>Project : <%=@project.repo %></h3>
 <ul id="myTab" class="nav nav-tabs">
   <li class="active"><a href="#description" data-toggle="tab">Description</a></li>
@@ -11,13 +10,17 @@
   <div class="tab-pane active" id="description">
     <%= @project.description%>
   </div>
-  <div class="tab-pane" id="developers">DEVELOPER LIST GOES HERE</div>
-  <div class="tab-pane" id="tickets">Issues are listed here</div>
+  <div class="tab-pane" id="developers">
+    <ul>
+      <% @project.get_developers.each do |e| %>
+        <li>
+           <%= e.humanize%>
+        </li>
+      <% end %>
+    </ul>
+  </div>
+  <div class="tab-pane" id="tickets">
+    Issues are listed here
+  </div>
   <div class="tab-pane" id="milestones">milestones are listed here</div>
 </div>
-
-<script>
-  $(function () {
-    $('.tabs a:last').tab('show')
-  })
-</script>
