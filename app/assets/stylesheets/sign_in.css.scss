@@ -29,6 +29,7 @@ color:red;
     width:0 auto;
 
 }
+
 #signin input,#signup input,#user_info input
 {
   margin:8px 0 0 5px;
@@ -51,6 +52,7 @@ margin:30px 0 0 10px !important;
  font-size:15px;
  font-family:"Helvetica Neue",Helvetica,Arial;
  line-height:5px;
+ float:left;
 }
 
 
@@ -69,8 +71,4 @@ margin:10px 0 0 0;
 }
 .sign_up{
 float:right;
-
-
-
-
 }
