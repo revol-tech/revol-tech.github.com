@@ -12,7 +12,7 @@
     User.create!(:id => id, :email => email, :password => encrypted_password,:admin=>admin,:name=>name,:organization=>organization,:address=>address,:phone_no=>phone_no)
   end
 
-["Malai Nabirseu|Neena Thapa|ingo for orphan children|1/2/2012|30/3/2012|https://github.com/revol-tech/MalaiNabirseu|1","Women Support Co-operative|Puspha Shrestha|Micro financing co-operative|13/12/2011|1/2/2012|https://github.com/revol-tech/WSC|2"].each do |t|
-    title,client,description,start_date,end_date,repo,user_id = t.chomp.split("|")
-    Project.create!(:title=>title, :client => client,:description=>description,:start_date=>start_date,:end_date=>end_date,:repo=>repo, :user_id =>user_id)
+["Malai Nabirseu|Neena Thapa|ingo for orphan children|1/2/2012|30/3/2012|https://github.com/revol-tech/MalaiNabirseu|1|malainebirseu.com.np","Women Support Co-operative|Puspha Shrestha|Micro financing co-operative|13/12/2011|1/2/2012|https://github.com/revol-tech/WSC|2|wscl.com.np"].each do |t|
+    title,client,description,start_date,end_date,repo,user_id,url = t.chomp.split("|")
+    Project.create!(:title=>title, :client => client,:description=>description,:start_date=>start_date,:end_date=>end_date,:repo=>repo, :user_id =>user_id,:url=>url)
   end
