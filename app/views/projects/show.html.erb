@@ -22,16 +22,18 @@
     </ul>
   </div>
   <div class="tab-pane" id="tickets">
+  <ul>
   <% tickets = @project.get_tickets %>
   <% unless tickets.empty? %>
     <% tickets.each do |e| %>
-      <%= e.title%>
+     <li> <%= e.title%></li>
     <% end %>
   <% else %>
    <p>
     There are no tickets assigned!
    </p>
   <% end %>
+  </ul>
   </div>
   <div class="tab-pane" id="milestones">milestones are listed here</div>
 </div>
