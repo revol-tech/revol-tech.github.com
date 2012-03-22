@@ -33,7 +33,7 @@ float:left;
    color:#3f87b7 !important;
    margin-left:130px;
 }
-.ror,.collaboration,.developer{
+#ror,#collaboration,#developer{
  background: none repeat scroll 0 0 #646464;
     border-radius: 10px 10px 10px 10px;
     float: left;
@@ -44,16 +44,16 @@ float:left;
     width: 400px;
 
 }
-.e_commerse h3,.collaboration h3,.media_sites h3,.ror h3,.developer h3,.cms h3{
+#e_commerse h3,#collaboration h3,#media_sites h3,#ror h3,#developer h3,#cms h3{
   color:#31b3ff;
   margin:5px 0 0 0px;
 
 }
-.e_commerse p,.collaboration p,.media_sites p,.ror p,.developer p,.cms p{
+#e_commerse p,#collaboration p,#media_sites p,#ror p,#developer p,#cms p{
  color:#fff;
 
 }
-.media_sites,.e_commerse,.cms{
+#media_sites,#e_commerse,#cms{
  background: none repeat scroll 0 0 #646464;
     border-radius: 10px 10px 10px 10px;
     float: left;
