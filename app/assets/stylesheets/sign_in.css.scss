@@ -1,18 +1,36 @@
-#signin,#signup{
+.span_flash{
+  color:#336699;
+  width:300px;
+  margin-left:430px;
+
+  float:left;
+}
+#signin,#signup,#user_info{
    width:355px;
    margin-left:275px;
    display:block;
    float:left;
 
 }
-
+.notice{
+color:red;
+}
 #signin label,#signup label{
     font-size:12px;
     margin:20px 0 0 0;
     text-align:left;
     width:0 auto;
+
 }
-#signin input,#signup input{
+#user_info label{
+    font-size:12px;
+
+    text-align:left;
+    width:0 auto;
+
+}
+#signin input,#signup input,#user_info input
+{
   margin:8px 0 0 5px;
 
 }

@@ -1,18 +1,20 @@
+<div id="user_info">
 <h3>Edit Your Profile:</h3>
 <%= form_for (@user) do |f| %>
-  <%= f.label :name %>
+  <%= f.label "name:" %>
 
 
 
   <%= f.text_field:name %><br />
 
-	<%= f.label :organization %>
+	<%= f.label "organization:" %>
 	<%= f.text_field:organization %>
 
-	<%= f.label :Address%>
+	<%= f.label "Address:"%>
 	<%= f.text_field:address%>
 
-	<%= f.label :Phone_No%>
+	<%= f.label "Phone_No:"%>
 	<%= f.text_field:phone_no%>
   <%= f.submit %>
 <% end %>
+</div>

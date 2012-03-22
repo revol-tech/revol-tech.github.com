@@ -19,8 +19,9 @@
 <div class="container">
    <%= render "home/top_links"%>
    <%= render "home/logo" %>
- <%= flash[:notice]%>
-    <%= yield %>
+
+   <%= yield %>
+   <span class="span_flash"> <%= flash[:notice]%></span>
   </div>
 	</div>
 
