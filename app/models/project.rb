@@ -38,4 +38,8 @@ class Project < ActiveRecord::Base
     self.initialize_github.issues.repo_issues(self.initialize_github.user,self.repo)
   end
 
+  def get_old_tickets
+    self.initialize_github.issues.repo_issues(self.initialize_github.user, self.repo,:state => "closed")
+  end
+
 end

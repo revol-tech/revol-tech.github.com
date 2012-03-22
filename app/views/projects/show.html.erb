@@ -4,8 +4,8 @@
 <ul id="myTab" class="nav nav-tabs">
   <li class="active"><a href="#description" data-toggle="tab">Description</a></li>
   <li><a href="#developers" data-toggle="tab">Developers assigned</a></li>
-  <li><a href="#tickets" data-toggle="tab">Tickets</a></li>
-  <li><a href="#milestones" data-toggle="tab">Milestones</a></li>
+  <li><a href="#tickets" data-toggle="tab">Open Tickets</a></li>
+  <li><a href="#old_tickets" data-toggle="tab">Closed Tickets</a></li>
 </ul>
 
 <div class="tab-content">
@@ -26,7 +26,7 @@
   <% tickets = @project.get_tickets %>
   <% unless tickets.empty? %>
     <% tickets.each do |e| %>
-     <li> <%= e.title%></li>
+     <li> <%= e.title.humanize%></li>
     <% end %>
   <% else %>
    <p>
@@ -35,7 +35,18 @@
   <% end %>
   </ul>
   </div>
-  <div class="tab-pane" id="milestones">milestones are listed here</div>
+   <div class="tab-pane" id="old_tickets">
+    <% tickets = @project.get_old_tickets%>
+    <ul>
+    <% unless tickets.empty? %>
+      <% tickets.each do |e|%>
+        <li><%= e.title.humanize %></li>
+      <% end %>
+    <% else %>
+      There are no closed tickets
+    <% end %>
+    </ul>
+   </div>
 </div>
 
 </div>
