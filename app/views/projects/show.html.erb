@@ -16,13 +16,22 @@
     <ul>
       <% @project.get_developers.each do |e| %>
         <li>
-           <%= e.humanize%>
+           <%= e %>
         </li>
       <% end %>
     </ul>
   </div>
   <div class="tab-pane" id="tickets">
-    Issues are listed here
+  <% tickets = @project.get_tickets %>
+  <% unless tickets.empty? %>
+    <% tickets.each do |e| %>
+      <%= e.title%>
+    <% end %>
+  <% else %>
+   <p>
+    There are no tickets assigned!
+   </p>
+  <% end %>
   </div>
   <div class="tab-pane" id="milestones">milestones are listed here</div>
 </div>

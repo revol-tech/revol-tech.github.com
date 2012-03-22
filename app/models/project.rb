@@ -29,8 +29,13 @@ class Project < ActiveRecord::Base
   def get_developers
     developers = []
     self.initialize_github.repos.collaborators(self.initialize_github.user,self.repo).each { |e| developers << e['login'] }
+    developers.collect! {|e| e.downcase}
     developers.keep_if{|e| DEVELOPERS.keys.include?(e)}
-    developers.collect!{|e| DEVELOPERS[e].humanize}
+    developers.collect!{ |e| DEVELOPERS[e].humanize}
+  end
+
+  def get_tickets
+    self.initialize_github.issues.repo_issues(self.initialize_github.user,self.repo)
   end
 
 end
