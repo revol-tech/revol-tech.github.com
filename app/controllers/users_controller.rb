@@ -6,6 +6,6 @@ def update
         @user.address = params[:user][:address]
         @user.phone_no = params[:user][:phone_no]
         @user.save!
-        redirect_to projects_user_info_path, :notice => "Profile Updated Successfully "
+        redirect_to projects_path, :notice => "Profile Updated Successfully "
 end
 end

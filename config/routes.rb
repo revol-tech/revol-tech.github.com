@@ -10,7 +10,7 @@ get "home/services"
 get "home/aboutus"
 get "home/portfolio"
 get "projects/user_info"
-
+get "projects/index"
 
 	resources :users
   resources :projects
