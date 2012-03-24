@@ -41,28 +41,28 @@ set :rvm_ruby_string, '1.9.3'
 # these http://github.com/rails/irs_process_scripts
 
 # If you are using Passenger mod_rails uncomment this:
-# namespace :assets do
-#  desc "Compress assets in a local file"
-#  task :compress_assets do
-#    # from = source.next_revision(current_revision)
-#    # if capture("cd #{latest_release} && #{source.local.log(from)} app/assets/ | wc -l").to_i > 0
-#      run_locally("rm -rf public/assets/*")
-#      run_locally("bundle exec rake assets:precompile RAILS_ENV=development")
-#      run_locally("touch assets.tgz && rm assets.tgz")
-#      run_locally("tar zcvf assets.tgz public/assets/")
-#      run_locally("mv assets.tgz public/assets/")
-#    # else
-#    #   logger.info "Skipping asset pre-compilation because there were no asset changes"
-#    # end
-#  end
+ namespace :assets do
+  desc "Compress assets in a local file"
+  task :compress_assets do
+    # from = source.next_revision(current_revision)
+    # if capture("cd #{latest_release} && #{source.local.log(from)} app/assets/ | wc -l").to_i > 0
+      run_locally("rm -rf public/assets/*")
+      run_locally("bundle exec rake assets:precompile")
+      run_locally("touch assets.tgz && rm assets.tgz")
+      run_locally("tar zcvf assets.tgz public/assets/")
+      run_locally("mv assets.tgz public/assets/")
+    # else
+    #   logger.info "Skipping asset pre-compilation because there were no asset changes"
+    # end
+  end
 
-#  desc "Upload assets"
-#    task :upload_assets, :roles => [:app] do
-#      upload("public/assets/assets.tgz", release_path + '/assets.tgz')
-#      run "cd #{release_path}; tar zxvf assets.tgz; rm assets.tgz"
-#      run_locally("rm -rf public/assets/*")
-#    end
-#end
+  desc "Upload assets"
+    task :upload_assets, :roles => [:app] do
+      upload("public/assets/assets.tgz", release_path + '/assets.tgz')
+      run "cd #{release_path}; tar zxvf assets.tgz; rm assets.tgz"
+      run_locally("rm -rf public/assets/*")
+    end
+end
 
 # namespace :deploy do
 #   task :start do ; end
@@ -72,6 +72,6 @@ set :rvm_ruby_string, '1.9.3'
 #   end
 # end
 
-#before "deploy:update_code", "assets:compress_assets"
-#after "deploy:update_code", "assets:upload_assets"
+before "deploy:update_code", "assets:compress_assets"
+after "deploy:update_code", "assets:upload_assets"
 after :deploy, 'deploy:cleanup','deploy:migrate', 'deploy:restart'
