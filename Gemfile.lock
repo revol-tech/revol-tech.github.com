@@ -77,7 +77,6 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.2.0)
-    commonjs (0.2.5)
     devise (2.0.4)
       bcrypt-ruby (~> 3.0)
       orm_adapter (~> 0.0.3)
@@ -114,12 +113,6 @@ GEM
       actionpack (>= 3.0.0)
       activesupport (>= 3.0.0)
       railties (>= 3.0.0)
-    less (2.0.11)
-      commonjs (~> 0.2.0)
-      therubyracer (~> 0.9.9)
-    less-rails (2.1.8)
-      actionpack (>= 3.1)
-      less (~> 2.0.7)
     libv8 (3.3.10.4)
     mail (2.3.3)
       i18n (>= 0.4.0)
@@ -228,10 +221,6 @@ GEM
       polyglot (>= 0.3.1)
     turn (0.8.3)
       ansi
-    twitter-bootstrap-rails (2.0.4)
-      actionpack (>= 3.1)
-      less-rails (~> 2.1.8)
-      railties (>= 3.1)
     tzinfo (0.3.32)
     uglifier (1.2.3)
       execjs (>= 0.3.0)
@@ -246,7 +235,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bootstrap-sass
   capistrano
   capybara
   coffee-rails (~> 3.1.1)
@@ -261,5 +249,4 @@ DEPENDENCIES
   sqlite3
   therubyracer
   turn (~> 0.8.3)
-  twitter-bootstrap-rails
   uglifier (>= 1.0.3)
