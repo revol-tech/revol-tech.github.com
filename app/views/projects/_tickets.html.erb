@@ -23,11 +23,11 @@
       <td>
         <%= e.comments%>
         	<% unless e.comments.zero? %>
-      			<%= link_to "(View)","#"%>
+      			<%= link_to "(View)",project_issue_path(@project,e.number)%>
     			<% end %>
       </td>
       <td>
-        <%= DateTime.strptime(e.created_at,'%Y-%m-%dT%H:%M:%S%z').strftime('%eth-%b-%Y-%A at %I:%M%p')%>
+        <%= DateTime.strptime(e.created_at,'%Y-%m-%dT%H:%M:%S%z').strftime('%eth-%b-%Y  %A at %I:%M%p')%>
       </td>
        <td>
         <%= e.milestone.try(:title)%>

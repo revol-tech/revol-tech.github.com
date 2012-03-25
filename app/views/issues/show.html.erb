@@ -1,0 +1,19 @@
+<table class="table table-condensed table-striped">
+  <th>Comment</th>
+  <th>By</th>
+  <th>Commented_at</th>
+<% @comments.each do |c| %>
+  <tr>
+    <td>
+    <%=  c.body %>
+    </td>
+    <td>
+      <%= c.user.try(:login)%>
+    </td>
+    <td>
+      <%= DateTime.strptime(c.created_at,'%Y-%m-%dT%H:%M:%S%z').strftime('%eth-%b-%Y  %A at %I:%M%p') %>
+    </td>
+  </tr>
+<% end %>
+</table>
+<%= link_to("Back", :back) %>

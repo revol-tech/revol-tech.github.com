@@ -7,7 +7,7 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 
-["1|malainabirseu@gmail.com|password|false|Neena|malainabirseu|Banesor|14444844","2|wscl@gmail.com|password|false|pushpa|wscl|Balaju|4442222","3|revol-tech@gmail.com|password|false|julfikar ali|revol-tech nepal|shallaghari bhaktapur|016617608","9|admin@gmail.com|bhaktapur11|true|admin|revoltech|Shallaghari|6666666"].each do |t|
+["1|malainabirseu@gmail.com|bhaktapur11|false|Neena|malainabirseu|Banesor|14444844","2|wscl@gmail.com|bhaktapur11|false|pushpa|wscl|Balaju|4442222","3|revol-tech@gmail.com|bhaktapur11|false|julfikar ali|revol-tech nepal|shallaghari bhaktapur|016617807","9|admin@gmail.com|bhaktapur11|true|admin|revoltech|Shallaghari|6611616"].each do |t|
     id,email,encrypted_password,admin,name,organization,address,phone_no = t.chomp.split("|")
     User.create!(:id => id, :email => email, :password => encrypted_password,:admin=>admin,:name=>name,:organization=>organization,:address=>address,:phone_no=>phone_no)
   end
