@@ -25,7 +25,15 @@ margin: 0px 0 0 50px;
 float:left;
 width:445px;
 height:520px;
-margin: 40px 0 0 0;
+margin: 65px 0 5px 0;
+
+}
+
+.sub_portfolio3{
+float:left;
+width:445px;
+height:520px;
+margin: 50px 0 5px 50px;
 
 }
 p.revolution,p.aboutus,p.port_folio{
@@ -44,6 +52,9 @@ p.revolution,p.aboutus,p.port_folio{
 
 .port_image{
     width:445px;
-    height:493px;
+    height:auto;
 
+}
+.image{
+	height:600px;
 }
