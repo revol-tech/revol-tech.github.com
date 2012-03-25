@@ -23,11 +23,9 @@
   </div>
   <div class="tab-pane" id="tickets">
   <ul>
-  <% tickets = @project.get_tickets %>
-  <% unless tickets.empty? %>
-    <% tickets.each do |e| %>
-     <li> <%= e.title.humanize%></li>
-    <% end %>
+  <% @tickets = @project.get_tickets %>
+  <% unless @tickets.empty? %>
+  <%= render "tickets"%>
   <% else %>
    <p>
     There are no tickets assigned!
@@ -36,12 +34,10 @@
   </ul>
   </div>
    <div class="tab-pane" id="old_tickets">
-    <% tickets = @project.get_old_tickets%>
+    <% @old_tickets = @project.get_old_tickets%>
     <ul>
-    <% unless tickets.empty? %>
-      <% tickets.each do |e|%>
-        <li><%= e.title.humanize %></li>
-      <% end %>
+    <% unless @old_tickets.empty? %>
+      <%= render "old_tickets"%>
     <% else %>
       There are no closed tickets
     <% end %>

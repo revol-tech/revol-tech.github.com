@@ -1,0 +1,35 @@
+<table class="table table-condensed table-striped">
+  <th>Ticket Number</th>
+  <th>Issue</th>
+  <th>Assigned To</th>
+  <th>Created by</th>
+  <th>Comments</th>
+  <th>Created at</th>
+  <th>milestone</th>
+  <% @tickets.each do |e| %>
+     <tr>
+      <td>
+      <%= e.number%>
+      </td>
+      <td>
+        <%=e.title %>
+      </td>
+      <td>
+        <%=e.assignee.try(:login) %>
+      </td>
+      <td>
+        <%=e.user.login %>
+      </td>
+      <td>
+        <%= e.comments%>
+      </td>
+      <td>
+        <%= DateTime.strptime(e.created_at,'%Y-%m-%dT%H:%M:%S%z').strftime('%eth-%b-%Y-%A at %I:%M%p')%>
+      </td>
+       <td>
+        <%= e.milestone.try(:title)%>
+      </td>
+     </tr>
+      <%=  %>
+  <% end %>
+</table>
