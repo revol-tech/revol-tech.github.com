@@ -26,6 +26,7 @@
   <% @tickets = @project.get_tickets %>
   <% unless @tickets.empty? %>
   <%= render "tickets"%>
+  <%= link_to "Back", :back%>
   <% else %>
    <p>
     There are no tickets assigned!
@@ -38,6 +39,7 @@
     <ul>
     <% unless @old_tickets.empty? %>
       <%= render "old_tickets"%>
+        <%= link_to "Back", :back%>
     <% else %>
       There are no closed tickets
     <% end %>

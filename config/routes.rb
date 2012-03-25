@@ -1,6 +1,20 @@
 RevolTechGithubCom::Application.routes.draw do
 
 
+  get "issues/new"
+
+  get "issues/edit"
+
+  get "issues/show"
+
+  get "issues/destroy"
+
+  get "issues/update"
+
+  get "issues/index"
+
+  get "issues/create"
+
   mount RailsAdmin::Engine => '/admin', :as => 'rails_admin'
 
   devise_for :users
@@ -11,9 +25,10 @@ get "home/aboutus"
 get "home/portfolio"
 get "projects/user_info"
 get "projects/index"
-
 	resources :users
-  resources :projects
+  resources :projects do
+    resources :issues
+  end
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

@@ -12,6 +12,7 @@ class Project < ActiveRecord::Base
   "aaganja" => "Kuber Aaganja",
   }
 
+
   def initialize_github
     github = Github.new do |opts|
       opts.user = "revol-tech"
@@ -40,6 +41,10 @@ class Project < ActiveRecord::Base
 
   def get_old_tickets
     self.initialize_github.issues.repo_issues(self.initialize_github.user, self.repo,:state => "closed")
+  end
+
+  def get_comments(issue_id)
+    self.initialize_github.issues.comments(self.initialize_github.user, self.repo,issue_id)
   end
 
 end

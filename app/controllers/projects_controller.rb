@@ -23,11 +23,8 @@ class ProjectsController < ApplicationController
   end
   def update
   end
+
 	def user_info
 		@user = current_user
 	end
-
-  private
-
-
 end
