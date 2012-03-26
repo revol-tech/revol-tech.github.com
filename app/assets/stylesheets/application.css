@@ -5,3 +5,28 @@
  *= require_self
  *= require_tree .
 */
+
+
+
+/*.....bootstarp fixed....*/
+body{
+padding-top:15px !important;
+}
+.span3{
+ width:165px !important;
+
+}
+.span4{
+ width:245px !important;
+}
+.span10{
+  width:620px !important;
+  margin:15px 0 0 0;
+}
+.span6{
+ width:295px !important;
+ margin:15px 0 0 0;
+}
+div.nav ul li{
+margin:0 0 0 15px !important;
+}
