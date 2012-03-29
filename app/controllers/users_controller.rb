@@ -1,5 +1,5 @@
-class UsersController < ApplicationController
-def update
+class UsersController <   ApplicationController
+  def update
 	      @user = User.find(params[:id])
         @user.name = params[:user][:name]
         @user.organization = params[:user][:organization]
@@ -7,5 +7,5 @@ def update
         @user.phone_no = params[:user][:phone_no]
         @user.save!
         redirect_to projects_path, :notice => "Profile Updated Successfully "
-end
+  end
 end

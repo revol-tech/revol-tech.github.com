@@ -1,6 +1,9 @@
 RevolTechGithubCom::Application.routes.draw do
 
 
+match "/attendance" => 'attendances#new'
+  resources :attendances
+
   get "issues/new"
 
   get "issues/edit"
@@ -25,6 +28,7 @@ get "home/aboutus"
 get "home/portfolio"
 get "projects/user_info"
 get "projects/index"
+
 	resources :users
   resources :projects do
     resources :issues
