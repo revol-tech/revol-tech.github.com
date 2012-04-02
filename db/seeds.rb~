@@ -17,7 +17,7 @@
     Project.create!(:title=>title, :client => client,:description=>description,:start_date=>start_date,:end_date=>end_date,:repo=>repo, :user_id =>user_id,:url=>url)
   end
 
-["1|kuber aaganja|System admin|kuber_aaganja","2|ramesh dhami|developer|ramesh_dhami","3|shobhab shrestha|develop|shobhab-shrestha","4|julfikar ali|ceo|julfikarali","5|shivwan j thapa|designer|shivwanjt","6|niroj shakya|business relation|niroj.shakya"].each do |t|
+["1|aaganja@revol-tech.com.np|System admin|kuber_aaganja","2|dhami@revol-tech.com.np|developer|ramesh_dhami","3|shobhab@revol-tech.com.np|develop|shobhab-shrestha","4|julfikar@revol-tech.com.np|ceo|julfikarali","5|shivwan@revol-tech.com.np|designer|shivwanjt","6|nirajshakya@revol-tech.com.np|business relation|niroj.shakya","7|kakshpati@gmail.com|Designer|kakshpati"].each do |t|
 	id,name,role,attendance_password = t.chomp.split("|")
 	Employee.create!(:id=>id, :name=>name, :role=>role, :attendance_password=>attendance_password)
   end
