@@ -1,25 +1,16 @@
 <div class="attendance_login">
   <%= form_for @attendance do |f| %>
-  <table>
-    <tr>
-      <td>
-        <%= f.label :name %>:
-      </td>
-      <td>
-         <%=text_field_tag :name %>
-      </td>
-    </tr>
-    <tr>
-       <td>
-        <%= f.label :password %>:
-      </td>
-      <td>
-         <%= password_field_tag(:attendance_password) %>
-      </td>
-    </tr>
-    <td>
+ <div>
+        <%= f.label "name:" %>
+
+         <%=text_field_tag :name %></div>
+ <div>
+        <%= f.label "password:" %>
+
+         <%= password_field_tag(:attendance_password) %></div>
+   <div class="submit">
       <%= f.submit("Start my day!") %>
-    </td>
+
     <% end %>
-  </table>
-</div>  
+
+</div>
