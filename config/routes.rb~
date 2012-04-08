@@ -40,7 +40,7 @@ get "projects/user_info"
 get "projects/index"
 get "projects/developer"
 get "projects/message_display"
-	resources :messages
+
 	resources :users
   resources :projects do
     resources :issues

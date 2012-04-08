@@ -32,9 +32,6 @@ class ProjectsController < ApplicationController
 		@user = current_user
 	  @project = Project.all
 	  @test = Github.new :login => 'revol-tech', :password => 'bhaktapur11'
-	end
-	
-	def message_display
-		@message = Message.all()
+
 	end
 end

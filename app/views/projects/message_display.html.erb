@@ -1,0 +1,13 @@
+<%=link_to "Main",params[:back]%>
+</br>
+</br>
+<% @message.each do |t| %>
+	<%if t.to==current_user.name%>
+		<div class="message">
+			<p>From:<%=t.from%></p>
+			<title>Message:</title>
+			<%= simple_format(t.subject)%>
+		</div>
+		</br>
+	<%end%>
+<%end%>

@@ -1,0 +1,9 @@
+<%= form_for @message do |f| %>
+<p>To:<%=params[:name]%></p>
+<%= f.text_area:subject,:class=>"message_area"%>
+<%= f.text_field:from,:value=>current_user.name,:class=>"display_form_none"%>
+<%= f.text_field:to,:value=>params[:name],:class=>"display_form_none"%>
+<%= f.submit "Send Message"%>
+<%end%>
+
+

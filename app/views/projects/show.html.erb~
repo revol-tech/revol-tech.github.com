@@ -1,5 +1,6 @@
 <div id="project_management">
 <h3>Project : <%=@project.repo %></h3>
+<%binding.pry%>
 <ul id="myTab" class="nav nav-tabs">
   <li class="active"><a href="#description" data-toggle="tab">Description</a></li>
   <li><a href="#developers" data-toggle="tab">Developers assigned</a></li>

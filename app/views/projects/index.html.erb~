@@ -1,6 +1,7 @@
 <div>
   <div class ="profile">
   <%route=request.url%>
+  <%binding.pry%>
   <%= link_to "Go to Inbox", projects_message_display_path(:back=>route)%>
   <div id="user_profile">
    <h3>Client Profile</h3>

@@ -1,0 +1,38 @@
+<%route=request.url%>
+<%= link_to "Message" , projects_message_display_path(:back=>route)%>
+<div>
+<p>Involved Projects</p>
+<%name={"Shobhab shrestha" => "Logic-Seeker",
+		 "Kapil raj nakhwa"=>"xecutioner",
+		 "Anup kakshpati"=>"kakshpati",
+		 "Julfiquar ali ahmed"=>"julfikar",
+		 "Shivan jung thapa"=>"shiv1j",
+		 "Niraj shakya"=>"chucha",
+		 "Ramesh dhami"=>"dhami",
+		 "Kuber aaganja"=>"aaganja",
+		 "Niraj pradhan"=>"nfloyd",
+		 "Julfiquar ali ahmed"=>"Julfikar"
+			}
+
+%>
+
+
+
+<% @project.each do |t|%>
+    <% @github = Github.new :login => 'revol-tech', :password => 'bhaktapur11' %>
+      <%(@github.repos.collaborators 'revol-tech', t.repo).each do |a|%>
+
+      	<%if name.has_key?(current_user.name)%>
+      		<% value = name[current_user.name]%>
+      	<%end%>
+        <%if value == a.login %>
+          <%=link_to ((@github.repos.get_repo('revol-tech',t.repo)).name),project_path(t.id)%>
+        <%end%>
+     <%end%>
+
+    <%#repo name
+    #(@github.repos.get_repo('revol-tech',t.repo)).name%>
+  </br>
+  <%end%>
+  
+</div>
