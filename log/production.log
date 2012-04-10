@@ -561,6 +561,7 @@ Compiled rails_admin/custom/ui.js  (0ms)  (pid 12719)
 Compiled rails_admin/jquery.colorpicker.css  (49ms)  (pid 12719)
 Compiled rails_admin/rails_admin.css  (2ms)  (pid 12719)
 Compiled rails_admin/imports.css  (2723ms)  (pid 12719)
+
 Compiled application.js  (5ms)  (pid 6177)
 Compiled jquery.js  (25ms)  (pid 6177)
 Compiled jquery_ujs.js  (0ms)  (pid 6177)
