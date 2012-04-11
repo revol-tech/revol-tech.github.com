@@ -1,7 +1,6 @@
 <div>
   <div class ="profile">
-  <%route=request.url%>
-  <%= link_to "Go to Inbox", projects_message_display_path(:back=>route)%>
+
   <div id="user_profile">
    <h3>Client Profile</h3>
     <ul>
@@ -11,6 +10,8 @@
 
       <li class="user_display"><label>Contact Number:</label><span><%= current_user.phone_no%></span></li>
     </ul>
+     <%route=request.url%>
+  <%= link_to "Go to Inbox", projects_message_display_path(:back=>route)%>
       <%= link_to "Edit Profile", projects_user_info_path,:class=>"edit_profile"%>
       </div>
   </div>

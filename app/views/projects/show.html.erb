@@ -15,7 +15,7 @@
     <ul>
       <% @project.get_developers.each do |e| %>
         <li>
-          <%= e %><%=link_to "Message",messages_new_path(:name=>e)%>
+          <%= e %><%=link_to "Message",messages_new_path(:name=>e),:style=>"float:right;"%>
         </li>
       <% end %>
     </ul>
