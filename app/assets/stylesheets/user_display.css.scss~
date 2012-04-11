@@ -30,5 +30,5 @@ height:30px;
 }
 
 .tab-content{
-	overflow:visible !important;
+
 }

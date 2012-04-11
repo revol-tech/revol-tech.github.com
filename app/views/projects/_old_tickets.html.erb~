@@ -1,25 +1,19 @@
 <table class="table table-condensed table-striped">
   <th>Ticket Number</th>
   <th>Issue</th>
-  <th>Label</th>
   <th>Assigned To</th>
   <th>Created by</th>
   <th>Comments</th>
-  <th>Created at</th>
+  <th>Created At</th>
   <th>milestone</th>
-  <% @tickets.each do |e| %>
+  <th>Closed At</th>
+  <% @old_tickets.each do |e| %>
      <tr>
       <td>
       <%= e.number%>
       </td>
       <td>
-        <%=e.title %>about:startpage
-      </td>
-      <td>
-      	<%if e.labels.blank?%>
-      	<%else%>
-      			<%=e.labels[0][:name]%>
-      	<%end%>
+        <%=e.title %>
       </td>
       <td>
         <%=e.assignee.try(:login) %>
@@ -29,15 +23,19 @@
       </td>
       <td>
         <%= e.comments%>
-        	<% unless e.comments.zero? %>
+        <% unless e.comments.zero? %>
       			<%= link_to "(View)",project_issue_path(@project,e.number)%>
     			<% end %>
       </td>
+      	<%=e.labels%>
       <td>
         <%= DateTime.strptime(e.created_at,'%Y-%m-%dT%H:%M:%S%z').strftime('%eth-%b-%Y  %A at %I:%M%p')%>
       </td>
        <td>
         <%= e.milestone.try(:title)%>
+      </td>
+      <td>
+        <%= DateTime.strptime(e.closed_at,'%Y-%m-%dT%H:%M:%S%z').strftime('%eth-%b-%Y  %A at %I:%M%p')%>
       </td>
      </tr>
       <%=  %>

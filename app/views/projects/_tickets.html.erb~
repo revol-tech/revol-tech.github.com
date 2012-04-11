@@ -13,9 +13,10 @@
       <%= e.number%>
       </td>
       <td>
-        <%=e.title %>about:startpage
+        <%=e.title %>
       </td>
       <td>
+      <%binding.pry%>
       	<%if e.labels.blank?%>
       	<%else%>
       			<%=e.labels[0][:name]%>
