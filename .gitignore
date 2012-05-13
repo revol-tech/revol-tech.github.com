@@ -14,4 +14,5 @@
 log/*
 /log/development.log
 /log/production.log
+/log/*.log
 /tmp
