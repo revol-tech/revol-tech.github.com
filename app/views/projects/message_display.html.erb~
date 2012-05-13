@@ -3,11 +3,14 @@
 </br>
 <% @message.each do |t| %>
 	<%if t.to==current_user.name%>
-		<div>
+		<div class="message">
 			<p>From:<%=t.from%></p>
 			<title>Message:</title>
 			<%= simple_format(t.subject)%>
 		</div>
+		<%=link_to "Reply",""	%>
+		</br>
+		</br>
 		</br>
 	<%end%>
 <%end%>
