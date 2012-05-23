@@ -1,0 +1,23 @@
+#career_intro p{
+    margin:10px 0 0 0;
+}
+
+#vacancy {
+    display: block;
+    float: left;
+    margin: 20px 0 0;
+    width: 100%;
+}
+#vacancy h2{
+    font-size: 16px;
+    line-height: 27px;
+        color: #336699;
+    font-weight: bold;
+    margin: 0;
+
+}
+#vacancy p{
+
+    margin:10px 0 0 0;
+
+}

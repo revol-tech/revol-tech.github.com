@@ -4,13 +4,13 @@
 #   Ensure the SQLite 3 gem is defined in your Gemfile
 #   gem 'sqlite3'
 development:
-  adapter: mysql2
+  adapter: sqlite3
   encoding: utf8
   reconnect: false
   database: development
   pool: 5
   username: "root"
-  password: "shresthas" 
+  password: "bhaktapur11"
 
 
 # Warning: The database defined as "test" will be erased and
