@@ -13,20 +13,19 @@
 
 
    <!--ali-->
-    <div id="wrap">
 
-	<div id="main" class="clearfix">
-<div class="container">
-   <%= render "home/top_links"%>
-   <%= render "home/logo" %>
-   <span class="span_flash"> <%= flash[:alert]%></span>
-   <%= yield %>
-   <span class="span_flash"> <%= flash[:notice]%></span>
-  </div>
+
+  <div id="wrap">
+    <div id="main" class="clearfix">
+      <div class="container">
+           <%= render "home/top_links"%>
+           <%= render "home/logo" %>
+           <%= yield %>
+            <span class="span_flash"> <%= flash[:notice]%></span>
+     </div>
+
 	</div>
-
 </div>
-
 <div id="footer"">
 <%= render "home/footer"%>
 </div>
