@@ -19,7 +19,7 @@
 <div class="container">
    <%= render "home/top_links"%>
    <%= render "home/logo" %>
-
+   <span class="span_flash"> <%= flash[:alert]%></span>
    <%= yield %>
    <span class="span_flash"> <%= flash[:notice]%></span>
   </div>
