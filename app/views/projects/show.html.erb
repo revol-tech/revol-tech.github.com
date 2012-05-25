@@ -12,10 +12,11 @@
     <%= @project.description%>
   </div>
   <div class="tab-pane" id="developers">
+  <%route=request.url%>
     <ul>
       <% @project.get_developers.each do |e| %>
         <li>
-          <%= e %><%=link_to "Message",messages_new_path(:name=>e),:style=>"float:right;"%>
+          <%= e %><%=link_to "Message",messages_new_path(:name=>[e,route]),:style=>"float:right;"%>
         </li>
       <% end %>
     </ul>

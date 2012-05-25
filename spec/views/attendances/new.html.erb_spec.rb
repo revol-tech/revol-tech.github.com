@@ -1,5 +1,8 @@
 require 'spec_helper'
 
 describe "attendances/new.html.erb" do
-  pending "add some examples to (or delete) #{__FILE__}"
+   it "displays the label name" do
+        content.should have_label,
+          :content => 'Name'
+      end
 end

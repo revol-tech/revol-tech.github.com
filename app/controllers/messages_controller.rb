@@ -7,9 +7,10 @@ class MessagesController < ApplicationController
   end
 
   def create
+  params[:message]
   	@message = Message.create(params[:message])
     @message.save!
-    redirect_to "http://localhost:3000/projects/2"
+    redirect_to params[:url], :notice => "Message Sent!"
   end
 
   def destroy
