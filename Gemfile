@@ -12,6 +12,7 @@ gem "devise"
 gem 'sass-rails','3.1.5'
 gem 'rails_admin', :git => 'git://github.com/sferik/rails_admin.git'
 gem "github_api"
+gem 'kaminari'
 
 # Deploy with Capistrano
  gem 'capistrano'
