@@ -242,6 +242,7 @@ DEPENDENCIES
   devise
   github_api
   jquery-rails
+  kaminari
   mysql2
   pry-rails
   rails (= 3.1.3)
