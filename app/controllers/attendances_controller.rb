@@ -9,8 +9,13 @@ class AttendancesController < ApplicationController
   def create
     @employee = Employee.find_by_name(params[:name])
     if @employee.try(:attendance_password) == params[:attendance_password]
-      @employee.attendances.create(:date_time => DateTime.now)
-      redirect_to :back, :notice => "Your have been logged for today! Happy Coding!!"
+    	@attendance = Attendance.find_by_date(Date.today)
+    	if @attendance.nil?
+      	@employee.attendances.create(:date_time => DateTime.now,:date=>Date.today)
+      	redirect_to :back, :notice => "Your have been logged for today! Happy Coding!!"
+      else
+				redirect_to :back, :notice => "You have already logged in for today!!"
+ 			end     	
     else
       redirect_to :back, :notice => "Invalid Credentials!"
     end
