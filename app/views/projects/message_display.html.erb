@@ -1,3 +1,4 @@
+<%route=request.url%>
 <%=link_to "Main",params[:back]%>
 </br>
 </br>
@@ -8,7 +9,7 @@
 			<title>Message:</title>
 			<%= simple_format(t.subject)%>
 		</div>
-		<%=link_to "Reply",""	%>
+		<%=link_to "Reply",messages_new_path(:name=>[t.from,route])	%>
 		</br>
 		</br>
 		</br>
