@@ -14,7 +14,10 @@ gem 'rails_admin', :git => 'git://github.com/sferik/rails_admin.git'
 gem "github_api"
 gem 'kaminari'
 gem 'newrelic_rpm'
+<<<<<<< HEAD
 
+=======
+>>>>>>> develop
 # Deploy with Capistrano
  gem 'capistrano'
 
