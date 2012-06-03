@@ -1,32 +1,34 @@
 RevolTechGithubCom::Application.routes.draw do
 
 
-  get "messages/index"
+  resources :time_trackings
 
-  get "messages/new"
+#  get "messages/index"
 
-  get "messages/create"
+#  get "messages/new"
 
-  get "messages/destroy"
+#  get "messages/create"
 
-  get "messages/update"
+#  get "messages/destroy"
+
+#  get "messages/update"
 
 match "/attendance" => 'attendances#new'
   resources :attendances
 
-  get "issues/new"
+#  get "issues/new"
 
-  get "issues/edit"
+#  get "issues/edit"
 
-  get "issues/show"
+#  get "issues/show"
 
-  get "issues/destroy"
+#  get "issues/destroy"
 
-  get "issues/update"
+#  get "issues/update"
 
-  get "issues/index"
+#  get "issues/index"
 
-  get "issues/create"
+#  get "issues/create"
 
   mount RailsAdmin::Engine => '/admin', :as => 'rails_admin'
 
@@ -36,7 +38,8 @@ get "home/revolutionaries"
 get "home/services"
 get "home/aboutus"
 get "home/portfolio"
-get "career/career"
+match "/careers" => 'career#career'
+  resources :attendances
 get "projects/user_info"
 get "projects/index"
 get "projects/developer"

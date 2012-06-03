@@ -3,6 +3,7 @@
 </div>
 <%route=request.url%>
 <%= link_to "Inbox" , projects_message_display_path(:back=>route),:style=>"margin:30px 0 0 244px;float:left;"%>
+<%= link_to "Time track" , new_time_tracking_path(:back=>route),:style=>"margin:30px 0 0 244px;float:left;"%>
 <div class="involved_project">
 <h4>Involved Projects</h4>
 <%name={"Shobhab shrestha" => "Logic-Seeker",

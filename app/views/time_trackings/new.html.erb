@@ -1,0 +1,17 @@
+<div class="time_tracker_login">
+  <%= form_for @timetracking do |f| %>
+
+    <%= f.label "project" %>
+    <%= collection_select(:project, :id, @projects, :id, :title, options ={:prompt => "-Select a project"}, :class =>"payment")%>
+
+    <%= f.label "time" %>
+    <%= select_tag "time_hr",options_for_select((0..12).to_a.zip((0..12).to_a))  , :class=>"time" %><span>hr</span>
+    <%= select_tag "time_min",options_for_select((0..59).to_a.zip((0..59).to_a)) , :class=>"time" %><span>min</span>
+
+    <%= f.label "comment" %>
+    <%= text_area_tag :comment %>
+
+    <%= f.submit("Save the work done time") %>
+
+    <% end %>
+</div>

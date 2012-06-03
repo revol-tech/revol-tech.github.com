@@ -1,5 +1,6 @@
 class Project < ActiveRecord::Base
   belongs_to :user
+  has_many :time_tracking
   DEVELOPERS = {
   "xecutioner" => "Kapil Raj Nakhwa",
   "nfloyd" => "Niraj Pradhan",
@@ -14,15 +15,16 @@ class Project < ActiveRecord::Base
 
 
   def initialize_github
-    github = Github.new do |opts|
-      opts.user = "revol-tech"
-      opts.repo = self.repo
-      opts.login = "revol-tech"
-      opts.password = "bhaktapur11"
-    end
-  end
+        github = Github.new do |opts|
+        opts.user = "revol-tech"
+        opts.repo = self.repo
+        opts.login = "revol-tech"
+        opts.password = "bhaktapur11"
+      end
+ end
 
   def get_repo
+
     github_handle = self.initialize_github
     github_handle.repos.get_repo("revol-tech",self.repo)
   end
