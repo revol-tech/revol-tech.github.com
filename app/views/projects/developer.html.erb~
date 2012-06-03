@@ -1,7 +1,12 @@
+<div class="developer_name">
+   <h3> <%= current_user.name %></h3>
 <%route=request.url%>
-<%= link_to "Message" , projects_message_display_path(:back=>route)%>
-<div>
-<p>Involved Projects</p>
+
+<%= link_to "Inbox" , projects_message_display_path(:back=>route),:style=>"margin:0px 0 0 0px;float:left;"%>
+</div>
+
+<div class="involved_project">
+<h4>Involved Projects</h4>
 <%name={"Shobhab shrestha" => "Logic-Seeker",
 		 "Kapil raj nakhwa"=>"xecutioner",
 		 "Anup kakshpati"=>"kakshpati",
@@ -30,9 +35,7 @@
         <%end%>
      <%end%>
 
-    <%#repo name
-    #(@github.repos.get_repo('revol-tech',t.repo)).name%>
   </br>
   <%end%>
-  
+
 </div>
