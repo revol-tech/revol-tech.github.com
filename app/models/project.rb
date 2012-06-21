@@ -1,6 +1,6 @@
 class Project < ActiveRecord::Base
   belongs_to :user
-  has_many :time_tracking
+  has_many :time_trackings
   DEVELOPERS = {
   "xecutioner" => "Kapil Raj Nakhwa",
   "nfloyd" => "Niraj Pradhan",
